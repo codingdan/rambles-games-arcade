@@ -2,10 +2,10 @@
 window.RG_GAMES = [
   {
     "id": "racing-game",
-    "title": "Race For Your Life",
+    "title": "Racing Game",
     "genre": "2D side-scrolling auto-runner race — creature runs automatically, player's only inputs are jump and duck, AI rivals share the course and your relative position shifts based on how cleanly you clear obstacles.",
-    "desc": "Pilot a dragon, unicorn, or goblin - race AI rivals, jump or duck the obstacles.",
-    "promotedAt": "2026-04-23T12:05:36+00:00",
+    "desc": "You are piloting a mythic creature — dragon, unicorn, or goblin — at a full gallop down an enchanted racetrack, neck-and-neck with rivals, with nothing but a split-second leap or duck between you and the lead.",
+    "promotedAt": "2026-04-23T12:05:47+00:00",
     "builtIn": 28221
   }
 ];
