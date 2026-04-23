@@ -5,7 +5,7 @@ window.RG_GAMES = [
     "title": "Race For Your Life",
     "genre": "2D side-scrolling auto-runner race — creature runs automatically, player's only inputs are jump and duck, AI rivals share the course and your relative position shifts based on how cleanly you clear obstacles.",
     "desc": "Pilot a dragon, unicorn, or goblin - race AI rivals, jump or duck the obstacles.",
-    "promotedAt": "2026-04-23T12:05:23+00:00",
+    "promotedAt": "2026-04-23T12:05:36+00:00",
     "builtIn": 28221
   }
 ];
