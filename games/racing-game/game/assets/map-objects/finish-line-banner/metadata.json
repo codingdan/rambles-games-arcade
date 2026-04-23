@@ -1,0 +1,30 @@
+{
+  "type": "finish-line",
+  "category": "finish",
+  "spriteSizePx": [384, 128],
+  "originAnchor": "center",
+  "placementY": "FINISH_BANNER_Y (~160)",
+  "hitboxBand": {
+    "x": 188,
+    "width": 8,
+    "y": 0,
+    "height": 128,
+    "note": "8-px vertical stripe at canvas horizontal center; spans full canvas height so dragon body overlaps as banner crosses anchor X"
+  },
+  "paletteTones": [
+    "dawnlight-gold",
+    "opal-shimmer",
+    "fae-blue",
+    "deep-emerald",
+    "moss-green",
+    "track-stone"
+  ],
+  "generatedByPixelLab": {
+    "objectId": "ba0a43ef-f1de-4aeb-944f-5c9383eb0c2d",
+    "canvasPx": [384, 128],
+    "view": "side",
+    "outline": "selective outline",
+    "shading": "detailed shading",
+    "detail": "high detail"
+  }
+}

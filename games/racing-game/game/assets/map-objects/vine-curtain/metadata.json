@@ -1,0 +1,23 @@
+{
+  "_note": "Vine-curtain overhead obstacle. Sprite placed at GROUND_Y=470 with origin(0.5,1). Hitbox band covers the zone a standing dragon (body top at GROUND_Y-34=436) occupies that a ducked dragon (body top at GROUND_Y-18=452) clears.",
+  "spriteSizePx": { "width": 128, "height": 96 },
+  "originAnchor": "bottom-center",
+  "placementY": "GROUND_Y (470)",
+  "hitboxBand": {
+    "yOffsetFromBottom": 18,
+    "heightPx": 16,
+    "widthPx": 128,
+    "_note": "In screen coords: Y=[436,452] (GROUND_Y-34 to GROUND_Y-18). Phase 5 applies: body.setSize(128,16); body.setOffset(0, height-18-16) per actual canvas."
+  },
+  "paletteTones": {
+    "deep-emerald": "#0b2019",
+    "moss-green": "#3a7a2e",
+    "dawnlight-gold": "#f5c842",
+    "fae-blue": "#5bc8f5"
+  },
+  "category": "overhead",
+  "type": "vine",
+  "generatedBy": "PixelLab map-object c3c9ccbe-2a08-4996-a7e4-ad86cec1f940",
+  "slice": "two-button-challenge",
+  "phase": "assets-overhead-obstacles"
+}

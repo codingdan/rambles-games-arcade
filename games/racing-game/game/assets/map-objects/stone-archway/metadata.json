@@ -1,0 +1,24 @@
+{
+  "_note": "Stone-archway overhead obstacle. Sprite placed at GROUND_Y=470 with origin(0.5,1). Hitbox band covers the zone a standing dragon (body top at GROUND_Y-34=436) occupies that a ducked dragon (body top at GROUND_Y-18=452) clears.",
+  "spriteSizePx": { "width": 192, "height": 256 },
+  "originAnchor": "bottom-center",
+  "placementY": "GROUND_Y (470)",
+  "hitboxBand": {
+    "yOffsetFromBottom": 18,
+    "heightPx": 16,
+    "widthPx": 192,
+    "_note": "In screen coords: Y=[436,452] (GROUND_Y-34 to GROUND_Y-18). Phase 5 applies: body.setSize(192,16); body.setOffset(0, height-18-16) per actual canvas."
+  },
+  "paletteTones": {
+    "track-stone": "#4a5a3a",
+    "moss-green": "#3a7a2e",
+    "opal-shimmer": "#b8e8f8",
+    "ember-red": "#d94f2a"
+  },
+  "category": "overhead",
+  "type": "archway",
+  "generatedBy": "PixelLab map-object 2f935cfd-fbb4-432a-867a-7c4015727c06",
+  "slice": "archway-keystone-fixup",
+  "phase": "assets-archway-regenerate",
+  "postProcessing": "flood-fill transparency: exterior corners (tolerance 40) + interior passage (teal glow, tolerance 45). Final transparency: 57.7%. Ember-red keystone preserved at apex center (96,64), 30x29px."
+}

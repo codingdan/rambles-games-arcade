@@ -1,0 +1,26 @@
+{
+  "assetId": "goblin",
+  "characterId": "d0f01ee7-33fd-44c8-b2db-e90186d246d1",
+  "atlasImage": "goblin.png",
+  "atlasJson": "goblin.json",
+  "frameSize": { "w": 68, "h": 68 },
+  "bodyHeightPx": 40,
+  "bodyHeightPxMeasured": 49,
+  "displayScaleNote": "Humanoid template renders taller than quadruped at same size param. Goblin measured 49px vs unicorn 43px (dragon 41px). Code phase should apply sprite.setScale(43/49) ≈ 0.878 to normalize goblin to unicorn visual height (~43px displayed). This fulfils the 'they race the same' visual commitment.",
+  "view": "side",
+  "animations": {
+    "run":        { "frames": 8, "frameRate": 10, "repeat": -1, "prefix": "run_",       "templateSource": "running-8-frames" },
+    "jump-rise":  { "frames": 4, "frameRate": 8,  "repeat": 0,  "prefix": "jump-rise_", "templateSource": "jumping-1",    "note": "Frames 0-3 = ascent phase. Parity-only; rival never jumps in gameplay." },
+    "jump-fall":  { "frames": 4, "frameRate": 8,  "repeat": 0,  "prefix": "jump-fall_", "templateSource": "jumping-2",    "note": "Frames 4-7 = descent phase. Parity-only." },
+    "duck":       { "frames": 4, "frameRate": 8,  "repeat": -1, "prefix": "duck_",      "templateSource": "running-slide","note": "Slide frames [1,2,3,2] — frames duck_1 and duck_2 achieve 41.7% body-top drop (threshold ≥40%). Parity-only; rival never ducks in gameplay." },
+    "stagger":    { "frames": 4, "frameRate": 8,  "repeat": 0,  "prefix": "stagger_",   "templateSource": "taking-punch", "note": "Frames 0-3 = impact + stumble." }
+  },
+  "palette": {
+    "body":    "moss-green (#3a7a2e) — dominant wiry skin tone, present in all 24 frames",
+    "rags":    "ember-red (#d94f2a) — tattered cap, loincloth sash, beady eyes; present in 22/24 frames (jump-rise_0 and jump-fall_2 have bright-red eyes at dist~65-72, outside the d<50 threshold in parity-only frames)",
+    "shading": "track-stone (#4a5a3a) — weathered fabric and skin shadows",
+    "accent":  "dawnlight-gold (#f5c842) — single glint (tooth or earring)"
+  },
+  "generationMethod": "pixellab-mcp",
+  "pixelDensityTier": 32
+}

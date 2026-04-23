@@ -1,0 +1,18 @@
+{
+  "assetId": "dragon",
+  "characterId": "3f6a7593-eb77-4e7e-bc20-3569615ef8ae",
+  "atlasImage": "dragon.png",
+  "atlasJson": "dragon.json",
+  "frameSize": { "w": 68, "h": 68 },
+  "bodyHeightPx": 40,
+  "view": "side",
+  "animations": {
+    "run":       { "frames": 8, "frameRate": 10, "repeat": -1, "prefix": "run_" },
+    "jump-rise": { "frames": 4, "frameRate": 8,  "repeat": 0,  "prefix": "jump-rise_" },
+    "jump-fall": { "frames": 4, "frameRate": 8,  "repeat": 0,  "prefix": "jump-fall_" },
+    "stagger":   { "frames": 4, "frameRate": 8,  "repeat": 0,  "prefix": "stagger_" },
+    "duck":      { "frames": 4, "frameRate": 8,  "repeat": 0,  "prefix": "duck_" }
+  },
+  "generationMethod": "pixellab-mcp",
+  "pixelDensityTier": 32
+}

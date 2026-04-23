@@ -1,0 +1,698 @@
+{
+  "textures": [
+    {
+      "image": "unicorn.png",
+      "format": "RGBA8888",
+      "size": {
+        "w": 544,
+        "h": 340
+      },
+      "scale": 1,
+      "frames": [
+        {
+          "filename": "run_0",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 68,
+            "h": 68
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 68,
+            "h": 68
+          },
+          "frame": {
+            "x": 0,
+            "y": 0,
+            "w": 68,
+            "h": 68
+          }
+        },
+        {
+          "filename": "run_1",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 68,
+            "h": 68
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 68,
+            "h": 68
+          },
+          "frame": {
+            "x": 68,
+            "y": 0,
+            "w": 68,
+            "h": 68
+          }
+        },
+        {
+          "filename": "run_2",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 68,
+            "h": 68
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 68,
+            "h": 68
+          },
+          "frame": {
+            "x": 136,
+            "y": 0,
+            "w": 68,
+            "h": 68
+          }
+        },
+        {
+          "filename": "run_3",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 68,
+            "h": 68
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 68,
+            "h": 68
+          },
+          "frame": {
+            "x": 204,
+            "y": 0,
+            "w": 68,
+            "h": 68
+          }
+        },
+        {
+          "filename": "run_4",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 68,
+            "h": 68
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 68,
+            "h": 68
+          },
+          "frame": {
+            "x": 272,
+            "y": 0,
+            "w": 68,
+            "h": 68
+          }
+        },
+        {
+          "filename": "run_5",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 68,
+            "h": 68
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 68,
+            "h": 68
+          },
+          "frame": {
+            "x": 340,
+            "y": 0,
+            "w": 68,
+            "h": 68
+          }
+        },
+        {
+          "filename": "run_6",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 68,
+            "h": 68
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 68,
+            "h": 68
+          },
+          "frame": {
+            "x": 408,
+            "y": 0,
+            "w": 68,
+            "h": 68
+          }
+        },
+        {
+          "filename": "run_7",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 68,
+            "h": 68
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 68,
+            "h": 68
+          },
+          "frame": {
+            "x": 476,
+            "y": 0,
+            "w": 68,
+            "h": 68
+          }
+        },
+        {
+          "filename": "jump-rise_0",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 68,
+            "h": 68
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 68,
+            "h": 68
+          },
+          "frame": {
+            "x": 0,
+            "y": 68,
+            "w": 68,
+            "h": 68
+          }
+        },
+        {
+          "filename": "jump-rise_1",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 68,
+            "h": 68
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 68,
+            "h": 68
+          },
+          "frame": {
+            "x": 68,
+            "y": 68,
+            "w": 68,
+            "h": 68
+          }
+        },
+        {
+          "filename": "jump-rise_2",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 68,
+            "h": 68
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 68,
+            "h": 68
+          },
+          "frame": {
+            "x": 136,
+            "y": 68,
+            "w": 68,
+            "h": 68
+          }
+        },
+        {
+          "filename": "jump-rise_3",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 68,
+            "h": 68
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 68,
+            "h": 68
+          },
+          "frame": {
+            "x": 204,
+            "y": 68,
+            "w": 68,
+            "h": 68
+          }
+        },
+        {
+          "filename": "jump-rise_4",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 68,
+            "h": 68
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 68,
+            "h": 68
+          },
+          "frame": {
+            "x": 272,
+            "y": 68,
+            "w": 68,
+            "h": 68
+          }
+        },
+        {
+          "filename": "jump-rise_5",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 68,
+            "h": 68
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 68,
+            "h": 68
+          },
+          "frame": {
+            "x": 340,
+            "y": 68,
+            "w": 68,
+            "h": 68
+          }
+        },
+        {
+          "filename": "jump-rise_6",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 68,
+            "h": 68
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 68,
+            "h": 68
+          },
+          "frame": {
+            "x": 408,
+            "y": 68,
+            "w": 68,
+            "h": 68
+          }
+        },
+        {
+          "filename": "jump-rise_7",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 68,
+            "h": 68
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 68,
+            "h": 68
+          },
+          "frame": {
+            "x": 476,
+            "y": 68,
+            "w": 68,
+            "h": 68
+          }
+        },
+        {
+          "filename": "jump-fall_0",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 68,
+            "h": 68
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 68,
+            "h": 68
+          },
+          "frame": {
+            "x": 0,
+            "y": 136,
+            "w": 68,
+            "h": 68
+          }
+        },
+        {
+          "filename": "jump-fall_1",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 68,
+            "h": 68
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 68,
+            "h": 68
+          },
+          "frame": {
+            "x": 68,
+            "y": 136,
+            "w": 68,
+            "h": 68
+          }
+        },
+        {
+          "filename": "jump-fall_2",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 68,
+            "h": 68
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 68,
+            "h": 68
+          },
+          "frame": {
+            "x": 136,
+            "y": 136,
+            "w": 68,
+            "h": 68
+          }
+        },
+        {
+          "filename": "jump-fall_3",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 68,
+            "h": 68
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 68,
+            "h": 68
+          },
+          "frame": {
+            "x": 204,
+            "y": 136,
+            "w": 68,
+            "h": 68
+          }
+        },
+        {
+          "filename": "jump-fall_4",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 68,
+            "h": 68
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 68,
+            "h": 68
+          },
+          "frame": {
+            "x": 272,
+            "y": 136,
+            "w": 68,
+            "h": 68
+          }
+        },
+        {
+          "filename": "jump-fall_5",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 68,
+            "h": 68
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 68,
+            "h": 68
+          },
+          "frame": {
+            "x": 340,
+            "y": 136,
+            "w": 68,
+            "h": 68
+          }
+        },
+        {
+          "filename": "jump-fall_6",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 68,
+            "h": 68
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 68,
+            "h": 68
+          },
+          "frame": {
+            "x": 408,
+            "y": 136,
+            "w": 68,
+            "h": 68
+          }
+        },
+        {
+          "filename": "jump-fall_7",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 68,
+            "h": 68
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 68,
+            "h": 68
+          },
+          "frame": {
+            "x": 476,
+            "y": 136,
+            "w": 68,
+            "h": 68
+          }
+        },
+        {
+          "filename": "stagger_0",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 68,
+            "h": 68
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 68,
+            "h": 68
+          },
+          "frame": {
+            "x": 0,
+            "y": 204,
+            "w": 68,
+            "h": 68
+          }
+        },
+        {
+          "filename": "stagger_1",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 68,
+            "h": 68
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 68,
+            "h": 68
+          },
+          "frame": {
+            "x": 68,
+            "y": 204,
+            "w": 68,
+            "h": 68
+          }
+        },
+        {
+          "filename": "stagger_2",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 68,
+            "h": 68
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 68,
+            "h": 68
+          },
+          "frame": {
+            "x": 136,
+            "y": 204,
+            "w": 68,
+            "h": 68
+          }
+        },
+        {
+          "filename": "stagger_3",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 68,
+            "h": 68
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 68,
+            "h": 68
+          },
+          "frame": {
+            "x": 204,
+            "y": 204,
+            "w": 68,
+            "h": 68
+          }
+        },
+        {
+          "filename": "duck_0",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 68,
+            "h": 68
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 68,
+            "h": 68
+          },
+          "frame": {
+            "x": 0,
+            "y": 272,
+            "w": 68,
+            "h": 68
+          }
+        },
+        {
+          "filename": "duck_1",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 68,
+            "h": 68
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 68,
+            "h": 68
+          },
+          "frame": {
+            "x": 68,
+            "y": 272,
+            "w": 68,
+            "h": 68
+          }
+        },
+        {
+          "filename": "duck_2",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 68,
+            "h": 68
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 68,
+            "h": 68
+          },
+          "frame": {
+            "x": 136,
+            "y": 272,
+            "w": 68,
+            "h": 68
+          }
+        },
+        {
+          "filename": "duck_3",
+          "rotated": false,
+          "trimmed": false,
+          "sourceSize": {
+            "w": 68,
+            "h": 68
+          },
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 68,
+            "h": 68
+          },
+          "frame": {
+            "x": 204,
+            "y": 272,
+            "w": 68,
+            "h": 68
+          }
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "app": "rambles-pipeline",
+    "version": "1.0",
+    "image": "unicorn.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 544,
+      "h": 340
+    },
+    "scale": "1"
+  }
+}

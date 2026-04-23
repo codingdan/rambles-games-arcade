@@ -1,0 +1,63 @@
+{
+  "character": {
+    "id": "3f6a7593-eb77-4e7e-bc20-3569615ef8ae",
+    "name": "Dragon",
+    "prompt": "majestic dragon quadruped, deep emerald green scales with fine scale texture, dawnlight gold highlights on wing membranes and eye rim, opal shimmer iridescence on chest and belly, ember red glowing eye and spine ridge spikes, wings half-folded tight along body at gallop, long neck stretched forward, heavy muscular build, thick powerful legs mid-stride, tail trailing behind",
+    "size": {
+      "width": 68,
+      "height": 68
+    },
+    "template_id": "horse",
+    "directions": 4,
+    "view": "side",
+    "created_at": "2026-04-23T03:33:17.50942+00:00"
+  },
+  "frames": {
+    "rotations": {
+      "south": "rotations/south.png",
+      "west": "rotations/west.png",
+      "east": "rotations/east.png",
+      "north": "rotations/north.png"
+    },
+    "animations": {
+      "dragon_rearing_up_mid-leap_all_four_legs_tucked_be-71cbcf99": {
+        "east": [
+          "animations/dragon_rearing_up_mid-leap_all_four_legs_tucked_be-71cbcf99/east/frame_000.png",
+          "animations/dragon_rearing_up_mid-leap_all_four_legs_tucked_be-71cbcf99/east/frame_001.png",
+          "animations/dragon_rearing_up_mid-leap_all_four_legs_tucked_be-71cbcf99/east/frame_002.png",
+          "animations/dragon_rearing_up_mid-leap_all_four_legs_tucked_be-71cbcf99/east/frame_003.png"
+        ]
+      },
+      "dragon_stumbling_and_bracing_after_a_trip_head_pit-8584fa05": {
+        "east": [
+          "animations/dragon_stumbling_and_bracing_after_a_trip_head_pit-8584fa05/east/frame_000.png",
+          "animations/dragon_stumbling_and_bracing_after_a_trip_head_pit-8584fa05/east/frame_001.png",
+          "animations/dragon_stumbling_and_bracing_after_a_trip_head_pit-8584fa05/east/frame_002.png",
+          "animations/dragon_stumbling_and_bracing_after_a_trip_head_pit-8584fa05/east/frame_003.png"
+        ]
+      },
+      "running-6deb373d": {
+        "east": [
+          "animations/running-6deb373d/east/frame_000.png",
+          "animations/running-6deb373d/east/frame_001.png",
+          "animations/running-6deb373d/east/frame_002.png",
+          "animations/running-6deb373d/east/frame_003.png",
+          "animations/running-6deb373d/east/frame_004.png",
+          "animations/running-6deb373d/east/frame_005.png",
+          "animations/running-6deb373d/east/frame_006.png",
+          "animations/running-6deb373d/east/frame_007.png"
+        ]
+      },
+      "dragon_descending_from_apex_front_legs_reaching_fo-1d5f478a": {
+        "east": [
+          "animations/dragon_descending_from_apex_front_legs_reaching_fo-1d5f478a/east/frame_000.png",
+          "animations/dragon_descending_from_apex_front_legs_reaching_fo-1d5f478a/east/frame_001.png",
+          "animations/dragon_descending_from_apex_front_legs_reaching_fo-1d5f478a/east/frame_002.png",
+          "animations/dragon_descending_from_apex_front_legs_reaching_fo-1d5f478a/east/frame_003.png"
+        ]
+      }
+    }
+  },
+  "export_version": "2.0",
+  "export_date": "2026-04-23T03:42:00.948020"
+}

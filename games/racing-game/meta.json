@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "id": "racing-game",
+  "title": "Racing Game",
+  "genre": "2D side-scrolling auto-runner race — creature runs automatically, player's only inputs are jump and duck, AI rivals share the course and your relative position shifts based on how cleanly you clear obstacles.",
+  "desc": "You are piloting a mythic creature — dragon, unicorn, or goblin — at a full gallop down an enchanted racetrack, neck-and-neck with rivals, with nothing but a split-second leap or duck between you and the lead.",
+  "promotedAt": "2026-04-23T12:03:57+00:00",
+  "audio": {
+    "src": "audio.mp3",
+    "durationSec": 69.17
+  },
+  "metrics": {
+    "wallClockSec": 31373.0,
+    "activeSec": 28221.637,
+    "costUsd": 60.4229365,
+    "inputTokens": 17409,
+    "outputTokens": 1358268,
+    "stagesRun": 46,
+    "turns": 1546
+  },
+  "changelog": [
+    {
+      "cycle": 1,
+      "slice": "first-gallop",
+      "status": "approved",
+      "phasesDone": 11,
+      "phasesFailed": 0,
+      "durationSec": 8858.311,
+      "costUsd": 17.61043035
+    },
+    {
+      "cycle": 2,
+      "slice": "two-button-challenge",
+      "status": "approved-with-failure",
+      "phasesDone": 7,
+      "phasesFailed": 1,
+      "durationSec": 6286.686,
+      "costUsd": 14.555575000000001
+    },
+    {
+      "cycle": 3,
+      "slice": "archway-keystone-fixup",
+      "status": "approved",
+      "phasesDone": 6,
+      "phasesFailed": 0,
+      "durationSec": 2832.392,
+      "costUsd": 5.997905599999999
+    },
+    {
+      "cycle": 4,
+      "slice": "neck-and-neck",
+      "status": "planned",
+      "phasesDone": 10,
+      "phasesFailed": 0,
+      "durationSec": 9264.124,
+      "costUsd": 18.607857449999997
+    }
+  ],
+  "transcript": "This game is a racing game of fantasy animals and so they're running on a racetrack and there's obstacles that they need to jump or duck under but they're racing against each other and the player controls one of them and the AI controls the other ones and the creatures are a beautiful dragon, a magical unicorn and a goblin and it's a very beautiful and enchanting game with some real challenge but the controls are ultimately simple. It's jump or duck and they run faster and faster so the game gets harder and harder."
+}

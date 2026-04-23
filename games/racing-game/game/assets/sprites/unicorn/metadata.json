@@ -1,0 +1,24 @@
+{
+  "assetId": "unicorn",
+  "characterId": "200704bb-ebac-4d22-858c-38335dc9fc60",
+  "atlasImage": "unicorn.png",
+  "atlasJson": "unicorn.json",
+  "frameSize": { "w": 68, "h": 68 },
+  "bodyHeightPx": 40,
+  "view": "side",
+  "animations": {
+    "run":        { "frames": 8, "frameRate": 10, "repeat": -1, "prefix": "run_",       "templateSource": "running-8-frames" },
+    "jump-rise":  { "frames": 8, "frameRate": 8,  "repeat": 0,  "prefix": "jump-rise_", "templateSource": "attack" },
+    "jump-fall":  { "frames": 8, "frameRate": 8,  "repeat": 0,  "prefix": "jump-fall_", "templateSource": "attack-back" },
+    "stagger":    { "frames": 4, "frameRate": 8,  "repeat": 0,  "prefix": "stagger_",   "templateSource": "hit-right" },
+    "duck":       { "frames": 4, "frameRate": 8,  "repeat": -1, "prefix": "duck_",      "templateSource": "dying", "note": "Uses dying frames 4,5,4,5 — lowest body-position frames, body-top y≥28 (40%+ silhouette drop). Rival never triggers duck in gameplay; parity-only." }
+  },
+  "palette": {
+    "body":   "opal-shimmer (#b8e8f8) — dominant luminous white-blue coat",
+    "mane":   "fae-blue (#5bc8f5) highlights on long streaming mane",
+    "horn":   "dawnlight-gold (#f5c842) — prominent forward-raised horn",
+    "hooves": "deep-emerald (#0b2019) accent"
+  },
+  "generationMethod": "pixellab-mcp",
+  "pixelDensityTier": 32
+}

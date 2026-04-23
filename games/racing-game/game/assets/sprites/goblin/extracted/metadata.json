@@ -1,0 +1,93 @@
+{
+  "character": {
+    "id": "d0f01ee7-33fd-44c8-b2db-e90186d246d1",
+    "name": "Goblin Rival",
+    "prompt": "wiry goblin, sprint runner, hunched forward aggressively, long arms pumping, bare feet, pointed ears, stubby horn, torn cap head-wrap, loincloth sash, moss-green skin, ember-red tattered rags and beady red eyes, dawnlight-gold tooth glint, scrappy outsider racer",
+    "size": {
+      "width": 68,
+      "height": 68
+    },
+    "template_id": "mannequin",
+    "directions": 4,
+    "view": "side",
+    "created_at": "2026-04-23T09:56:51.189482+00:00"
+  },
+  "frames": {
+    "rotations": {
+      "south": "rotations/south.png",
+      "west": "rotations/west.png",
+      "east": "rotations/east.png",
+      "north": "rotations/north.png"
+    },
+    "animations": {
+      "crouching-f38885e1": {
+        "east": [
+          "animations/crouching-f38885e1/east/frame_000.png",
+          "animations/crouching-f38885e1/east/frame_001.png",
+          "animations/crouching-f38885e1/east/frame_002.png",
+          "animations/crouching-f38885e1/east/frame_003.png",
+          "animations/crouching-f38885e1/east/frame_004.png"
+        ]
+      },
+      "taking_a_punch-80c5875e": {
+        "east": [
+          "animations/taking_a_punch-80c5875e/east/frame_000.png",
+          "animations/taking_a_punch-80c5875e/east/frame_001.png",
+          "animations/taking_a_punch-80c5875e/east/frame_002.png",
+          "animations/taking_a_punch-80c5875e/east/frame_003.png",
+          "animations/taking_a_punch-80c5875e/east/frame_004.png",
+          "animations/taking_a_punch-80c5875e/east/frame_005.png"
+        ]
+      },
+      "animating-d70b3baf": {
+        "east": [
+          "animations/animating-d70b3baf/east/frame_000.png",
+          "animations/animating-d70b3baf/east/frame_001.png",
+          "animations/animating-d70b3baf/east/frame_002.png",
+          "animations/animating-d70b3baf/east/frame_003.png",
+          "animations/animating-d70b3baf/east/frame_004.png",
+          "animations/animating-d70b3baf/east/frame_005.png",
+          "animations/animating-d70b3baf/east/frame_006.png",
+          "animations/animating-d70b3baf/east/frame_007.png"
+        ]
+      },
+      "running-3f9badcf": {
+        "east": [
+          "animations/running-3f9badcf/east/frame_000.png",
+          "animations/running-3f9badcf/east/frame_001.png",
+          "animations/running-3f9badcf/east/frame_002.png",
+          "animations/running-3f9badcf/east/frame_003.png",
+          "animations/running-3f9badcf/east/frame_004.png",
+          "animations/running-3f9badcf/east/frame_005.png",
+          "animations/running-3f9badcf/east/frame_006.png",
+          "animations/running-3f9badcf/east/frame_007.png"
+        ]
+      },
+      "animating-4e8cb2b3": {
+        "east": [
+          "animations/animating-4e8cb2b3/east/frame_000.png",
+          "animations/animating-4e8cb2b3/east/frame_001.png",
+          "animations/animating-4e8cb2b3/east/frame_002.png",
+          "animations/animating-4e8cb2b3/east/frame_003.png",
+          "animations/animating-4e8cb2b3/east/frame_004.png",
+          "animations/animating-4e8cb2b3/east/frame_005.png",
+          "animations/animating-4e8cb2b3/east/frame_006.png",
+          "animations/animating-4e8cb2b3/east/frame_007.png",
+          "animations/animating-4e8cb2b3/east/frame_008.png"
+        ]
+      },
+      "animating-e16b641f": {
+        "east": [
+          "animations/animating-e16b641f/east/frame_000.png",
+          "animations/animating-e16b641f/east/frame_001.png",
+          "animations/animating-e16b641f/east/frame_002.png",
+          "animations/animating-e16b641f/east/frame_003.png",
+          "animations/animating-e16b641f/east/frame_004.png",
+          "animations/animating-e16b641f/east/frame_005.png"
+        ]
+      }
+    }
+  },
+  "export_version": "2.0",
+  "export_date": "2026-04-23T10:12:25.770914"
+}

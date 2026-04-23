@@ -1,0 +1,60 @@
+{
+  "frames": [
+    {
+      "filename": "torch-low",
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 128
+      }
+    },
+    {
+      "filename": "torch-high",
+      "frame": {
+        "x": 64,
+        "y": 0,
+        "w": 64,
+        "h": 128
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 128
+      },
+      "sourceSize": {
+        "w": 64,
+        "h": 128
+      }
+    }
+  ],
+  "meta": {
+    "app": "rambles-games pipeline",
+    "version": "1.0",
+    "image": "torch-post.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 128,
+      "h": 128
+    },
+    "scale": "1",
+    "frameWidth": 64,
+    "frameHeight": 128,
+    "frameCount": 2
+  }
+}

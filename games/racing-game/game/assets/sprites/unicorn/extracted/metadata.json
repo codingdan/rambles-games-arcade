@@ -1,0 +1,102 @@
+{
+  "character": {
+    "id": "200704bb-ebac-4d22-858c-38335dc9fc60",
+    "name": "unicorn-rival",
+    "prompt": "magical unicorn, prominent golden glowing horn on forehead, long flowing blue mane streaming back in motion, luminous opal-white coat, fae-blue mane highlights, dark emerald hooves, slender elegant thoroughbred build, side profile running posture",
+    "size": {
+      "width": 68,
+      "height": 68
+    },
+    "template_id": "horse",
+    "directions": 4,
+    "view": "side",
+    "created_at": "2026-04-23T09:37:02.807562+00:00"
+  },
+  "frames": {
+    "rotations": {
+      "south": "rotations/south.png",
+      "west": "rotations/west.png",
+      "east": "rotations/east.png",
+      "north": "rotations/north.png"
+    },
+    "animations": {
+      "lying_down-a4b852c4": {
+        "east": [
+          "animations/lying_down-a4b852c4/east/frame_000.png",
+          "animations/lying_down-a4b852c4/east/frame_001.png",
+          "animations/lying_down-a4b852c4/east/frame_002.png",
+          "animations/lying_down-a4b852c4/east/frame_003.png",
+          "animations/lying_down-a4b852c4/east/frame_004.png",
+          "animations/lying_down-a4b852c4/east/frame_005.png",
+          "animations/lying_down-a4b852c4/east/frame_006.png",
+          "animations/lying_down-a4b852c4/east/frame_007.png"
+        ]
+      },
+      "getting_hit_from_right-39a76b07": {
+        "east": [
+          "animations/getting_hit_from_right-39a76b07/east/frame_000.png",
+          "animations/getting_hit_from_right-39a76b07/east/frame_001.png",
+          "animations/getting_hit_from_right-39a76b07/east/frame_002.png",
+          "animations/getting_hit_from_right-39a76b07/east/frame_003.png"
+        ]
+      },
+      "attacking-9076eb88": {
+        "east": [
+          "animations/attacking-9076eb88/east/frame_000.png",
+          "animations/attacking-9076eb88/east/frame_001.png",
+          "animations/attacking-9076eb88/east/frame_002.png",
+          "animations/attacking-9076eb88/east/frame_003.png",
+          "animations/attacking-9076eb88/east/frame_004.png",
+          "animations/attacking-9076eb88/east/frame_005.png",
+          "animations/attacking-9076eb88/east/frame_006.png",
+          "animations/attacking-9076eb88/east/frame_007.png"
+        ]
+      },
+      "running-fe10068d": {
+        "east": [
+          "animations/running-fe10068d/east/frame_000.png",
+          "animations/running-fe10068d/east/frame_001.png",
+          "animations/running-fe10068d/east/frame_002.png",
+          "animations/running-fe10068d/east/frame_003.png",
+          "animations/running-fe10068d/east/frame_004.png",
+          "animations/running-fe10068d/east/frame_005.png",
+          "animations/running-fe10068d/east/frame_006.png",
+          "animations/running-fe10068d/east/frame_007.png"
+        ]
+      },
+      "eating-4833ec61": {
+        "east": [
+          "animations/eating-4833ec61/east/frame_000.png",
+          "animations/eating-4833ec61/east/frame_001.png",
+          "animations/eating-4833ec61/east/frame_002.png",
+          "animations/eating-4833ec61/east/frame_003.png",
+          "animations/eating-4833ec61/east/frame_004.png"
+        ]
+      },
+      "attacking_backward-79d3d7ae": {
+        "east": [
+          "animations/attacking_backward-79d3d7ae/east/frame_000.png",
+          "animations/attacking_backward-79d3d7ae/east/frame_001.png",
+          "animations/attacking_backward-79d3d7ae/east/frame_002.png",
+          "animations/attacking_backward-79d3d7ae/east/frame_003.png",
+          "animations/attacking_backward-79d3d7ae/east/frame_004.png",
+          "animations/attacking_backward-79d3d7ae/east/frame_005.png",
+          "animations/attacking_backward-79d3d7ae/east/frame_006.png",
+          "animations/attacking_backward-79d3d7ae/east/frame_007.png"
+        ]
+      },
+      "animation-3617020a": {
+        "east": [
+          "animations/animation-3617020a/east/frame_000.png",
+          "animations/animation-3617020a/east/frame_001.png",
+          "animations/animation-3617020a/east/frame_002.png",
+          "animations/animation-3617020a/east/frame_003.png",
+          "animations/animation-3617020a/east/frame_004.png",
+          "animations/animation-3617020a/east/frame_005.png"
+        ]
+      }
+    }
+  },
+  "export_version": "2.0",
+  "export_date": "2026-04-23T09:51:43.229816"
+}
