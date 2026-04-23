@@ -1,0 +1,122 @@
+/* CRT primitives — scanlines, glow, flicker, noise.
+   Meant to be themed per-variant via CSS variables. */
+
+.crt-root {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+  image-rendering: pixelated;
+  -webkit-font-smoothing: none;
+  font-smooth: never;
+}
+
+/* Scanline overlay — ultra-thin horizontal lines */
+.crt-scanlines::before {
+  content: '';
+  position: absolute; inset: 0;
+  pointer-events: none;
+  background: repeating-linear-gradient(
+    to bottom,
+    rgba(0,0,0,0) 0px,
+    rgba(0,0,0,0) 2px,
+    rgba(0,0,0,0.28) 3px,
+    rgba(0,0,0,0) 4px
+  );
+  mix-blend-mode: multiply;
+  z-index: 60;
+}
+
+/* Soft vignette + curvature hint */
+.crt-vignette::after {
+  content: '';
+  position: absolute; inset: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(ellipse at center, rgba(0,0,0,0) 55%, rgba(0,0,0,0.55) 100%);
+  z-index: 61;
+}
+
+/* Sub-pixel mask — RGB stripe vibe, low opacity */
+.crt-mask::before {
+  content: '';
+  position: absolute; inset: 0;
+  pointer-events: none;
+  background: repeating-linear-gradient(
+    to right,
+    rgba(255,0,96,0.05) 0px,
+    rgba(0,255,180,0.05) 1px,
+    rgba(80,140,255,0.05) 2px
+  );
+  z-index: 59;
+}
+
+/* Flicker — barely-there */
+@keyframes crt-flicker {
+  0%,100% { opacity: 1; }
+  42% { opacity: 0.985; }
+  44% { opacity: 0.96; }
+  46% { opacity: 0.99; }
+  83% { opacity: 0.97; }
+}
+.crt-flicker {
+  animation: crt-flicker 4.7s infinite steps(24, end);
+}
+
+@keyframes crt-roll {
+  0% { transform: translateY(-100%); }
+  100% { transform: translateY(100%); }
+}
+.crt-rollbar {
+  position: absolute;
+  left: 0; right: 0; height: 8%;
+  pointer-events: none;
+  background: linear-gradient(to bottom, transparent, rgba(255,255,255,0.04), transparent);
+  animation: crt-roll 9s linear infinite;
+  z-index: 58;
+}
+
+/* Glow text utility */
+.crt-glow {
+  text-shadow:
+    0 0 1px currentColor,
+    0 0 6px currentColor,
+    0 0 14px color-mix(in srgb, currentColor 50%, transparent);
+}
+
+/* Blinking cursor */
+@keyframes crt-blink { 0%,50% { opacity: 1; } 51%,100% { opacity: 0; } }
+.crt-cursor { animation: crt-blink 1s steps(2, end) infinite; }
+
+/* Pixel-grid image defaults */
+.pixel-img {
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}
+
+/* Marquee */
+@keyframes crt-marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+.crt-marquee-track {
+  display: inline-flex;
+  white-space: nowrap;
+  animation: crt-marquee 40s linear infinite;
+}
+
+/* Hover pulse for cards */
+@keyframes crt-pulse {
+  0%,100% { box-shadow: 0 0 0 0 var(--glow, #fff), 0 0 12px 0 var(--glow, #fff); }
+  50% { box-shadow: 0 0 0 1px var(--glow, #fff), 0 0 22px 2px var(--glow, #fff); }
+}
+
+/* Fake audio equalizer bars */
+@keyframes eq-bar {
+  0%,100% { transform: scaleY(0.25); }
+  50% { transform: scaleY(1); }
+}
+
+/* hide scroll thumbs inside variants */
+.rg-scroll::-webkit-scrollbar { width: 6px; height: 6px; }
+.rg-scroll::-webkit-scrollbar-thumb { background: color-mix(in srgb, var(--accent,#fff) 40%, transparent); border-radius: 3px; }
+.rg-scroll::-webkit-scrollbar-track { background: transparent; }
