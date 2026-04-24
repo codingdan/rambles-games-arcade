@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no" />
   <title>Leila Snow Boarding</title>
   <style>
     * {
@@ -19,12 +19,18 @@
       align-items: center;
       width: 100vw;
       height: 100vh;
+      touch-action: manipulation;
+      -webkit-tap-highlight-color: transparent;
     }
     #game-container {
       /* Phaser canvas is injected here */
     }
+    #game-container canvas {
+      image-rendering: pixelated;
+      image-rendering: crisp-edges;
+    }
   </style>
-  <script type="module" crossorigin src="./assets/index-CeA57WrF.js"></script>
+  <script type="module" crossorigin src="./assets/index-CtJRq2ec.js"></script>
 </head>
 <body>
   <div id="game-container"></div>
