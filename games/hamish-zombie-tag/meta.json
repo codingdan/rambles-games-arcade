@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "id": "hamish-zombie-tag",
+  "title": "Zombie Tag",
+  "genre": "Top-down grid-based tag-chase with stealth-proximity aggro and round-to-round role reversal.",
+  "desc": "You are one adventurer in a room crowded with zombies. Or one zombie chasing an adventurer!",
+  "promotedAt": "2026-04-24T04:19:55+00:00",
+  "audio": {
+    "src": "audio.mp3",
+    "durationSec": 42.05
+  },
+  "metrics": {
+    "wallClockSec": 69519.0,
+    "activeSec": 149644.0,
+    "costUsd": 87.3486,
+    "inputTokens": 38458,
+    "outputTokens": 1726601,
+    "stagesRun": 78,
+    "turns": 2340
+  },
+  "changelog": [
+    {
+      "cycle": 1,
+      "slice": "radius-stealth-core",
+      "status": "approved",
+      "phasesDone": 11,
+      "phasesFailed": 0,
+      "durationSec": 21186.0,
+      "costUsd": 15.1424
+    },
+    {
+      "cycle": 2,
+      "slice": "contact-invariant-fix",
+      "status": "approved",
+      "phasesDone": 6,
+      "phasesFailed": 0,
+      "durationSec": 6895.0,
+      "costUsd": 5.3606
+    },
+    {
+      "cycle": 3,
+      "slice": "hero-strike-and-combat",
+      "status": "approved",
+      "phasesDone": 10,
+      "phasesFailed": 0,
+      "durationSec": 16251.0,
+      "costUsd": 10.944799999999999
+    },
+    {
+      "cycle": 4,
+      "slice": "role-reversal-zombie-round",
+      "status": "approved",
+      "phasesDone": 12,
+      "phasesFailed": 0,
+      "durationSec": 31994.0,
+      "costUsd": 21.457
+    },
+    {
+      "cycle": 5,
+      "slice": "zombie-round-balance-and-feel-polish",
+      "status": "approved",
+      "phasesDone": 10,
+      "phasesFailed": 0,
+      "durationSec": 17981.0,
+      "costUsd": 12.7021
+    },
+    {
+      "cycle": 6,
+      "slice": "feel-and-difficulty-ramp",
+      "status": "approved",
+      "phasesDone": 10,
+      "phasesFailed": 0,
+      "durationSec": 8588.0,
+      "costUsd": 19.035
+    }
+  ],
+  "transcript": "zombie tag so basically there's lots of zombies in the room and you have to run away from them and they have to be ten spaces away from you for them to start chasing you but if they tag you then it's game over and then but then the next round you play a zombie but then if you get defeated by an adventurer the next time you're an adventurer you can defeat zombies as well. So zombies vs adventurers and it's a tag game. yeah no way and zombies can also attack heroes",
+  "cover": "cover.png"
+}
