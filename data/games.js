@@ -5,8 +5,8 @@ window.RG_GAMES = [
     "title": "Snowboard Free",
     "genre": "Top-down-ish vertically-scrolling downhill snowboarding arcade, in the SkiFree lineage: continuous descent, obstacle slalom, inevitable pursuer.",
     "desc": "You are snowboarding down an endless mountain — carving, dodging pines, launching off moguls — and at some point Donald Trump comes bounding down the slope to eat you, just like the SkiFree Yeti.",
-    "promotedAt": "2026-04-24T09:04:07+00:00",
-    "builtIn": 140144,
+    "promotedAt": "2026-04-24T12:58:58+00:00",
+    "builtIn": 153563,
     "cover": "cover.png"
   },
   {

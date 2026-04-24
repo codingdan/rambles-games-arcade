@@ -4,19 +4,19 @@
   "title": "Snowboard Free",
   "genre": "Top-down-ish vertically-scrolling downhill snowboarding arcade, in the SkiFree lineage: continuous descent, obstacle slalom, inevitable pursuer.",
   "desc": "You are snowboarding down an endless mountain — carving, dodging pines, launching off moguls — and at some point Donald Trump comes bounding down the slope to eat you, just like the SkiFree Yeti.",
-  "promotedAt": "2026-04-24T09:04:07+00:00",
+  "promotedAt": "2026-04-24T12:58:58+00:00",
   "audio": {
     "src": "audio.mp3",
     "durationSec": 12.64
   },
   "metrics": {
-    "wallClockSec": 203364.0,
-    "activeSec": 140144.625,
-    "costUsd": 119.84339225,
-    "inputTokens": 53572,
-    "outputTokens": 2461239,
-    "stagesRun": 84,
-    "turns": 2889
+    "wallClockSec": 216793.0,
+    "activeSec": 153563.001,
+    "costUsd": 129.5082103,
+    "inputTokens": 63263,
+    "outputTokens": 2644902,
+    "stagesRun": 93,
+    "turns": 3129
   },
   "changelog": [
     {
@@ -90,6 +90,15 @@
       "phasesFailed": 0,
       "durationSec": 11644.281,
       "costUsd": 24.8762475
+    },
+    {
+      "cycle": 9,
+      "slice": "touch-overlay-redesign",
+      "status": "approved",
+      "phasesDone": 5,
+      "phasesFailed": 0,
+      "durationSec": 3792.672,
+      "costUsd": 7.807915599999999
     }
   ],
   "transcript": "Snowboarding. Snowboarding ski-free. Snowboarding ski-free and instead of the Yeti, the Abominable Snowman, it's Donald Trump. That hurts!",
