@@ -1,0 +1,8 @@
+{
+  "asset_key": "cabin-a-frame",
+  "file": "cabin-a-frame.png",
+  "canvas_width": 48,
+  "canvas_height": 48,
+  "view": "low top-down",
+  "scale_note": "far-background parallax decor; render at ~0.5x pine scale to sell depth illusion"
+}

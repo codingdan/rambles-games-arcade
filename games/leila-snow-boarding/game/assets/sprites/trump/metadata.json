@@ -1,0 +1,24 @@
+{
+  "character": "Trump",
+  "pixellab_character_id": "6ea3b3a0-e381-427a-a60a-16224a476f3c",
+  "canvas_px": 68,
+  "character_height_approx_px": 40,
+  "pixel_density_tier": 32,
+  "view": "low top-down",
+  "source_directions": {
+    "trump-bound-a": "south",
+    "trump-bound-b": "south",
+    "trump-chomp": "south"
+  },
+  "source_animations": {
+    "trump-bound-a": "running-6-frames / south / frame_001",
+    "trump-bound-b": "running-6-frames / south / frame_004",
+    "trump-chomp": "cross-punch / south / frame_004"
+  },
+  "poses": {
+    "trump-bound-a": "trump-bound-a.png",
+    "trump-bound-b": "trump-bound-b.png",
+    "trump-chomp": "trump-chomp.png"
+  },
+  "notes": "Three addressable pose textures for GameplayScene swap. trump-bound-a and trump-bound-b are alternating stride frames from running-6-frames animation (frames 1 and 4) — visually distinct at thumbnail size, swap at 250 ms to read as bounding locomotion. trump-chomp is the peak lunge frame from cross-punch animation (frame 4) — body fully committed forward, arms extended, reads as catching/grabbing; locks as frozen frame on game-over. Character is slightly bulkier than Leila on-screen, same 68x68 canvas, chibi proportions, orange skin/hair, dark suit, tie-red power tie."
+}

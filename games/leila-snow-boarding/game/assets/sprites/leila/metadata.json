@@ -1,0 +1,31 @@
+{
+  "character": "Leila",
+  "pixellab_character_id": "cde461ac-e796-4ee9-97b7-86023151b7b0",
+  "canvas_px": 68,
+  "character_height_approx_px": 40,
+  "pixel_density_tier": 32,
+  "view": "low top-down",
+  "source_directions": {
+    "leila-neutral": "south",
+    "leila-lean-left": "south-west",
+    "leila-lean-right": "south-east"
+  },
+  "poses": {
+    "leila-neutral": "leila-neutral.png",
+    "leila-lean-left": "leila-lean-left.png",
+    "leila-lean-right": "leila-lean-right.png",
+    "leila-stagger": "leila-stagger.png",
+    "leila-airborne-tuck": "leila-airborne-tuck.png"
+  },
+  "stagger_animation_frames": [
+    "leila-stagger-frame-0.png",
+    "leila-stagger-frame-1.png",
+    "leila-stagger-frame-2.png",
+    "leila-stagger-frame-3.png",
+    "leila-stagger-frame-4.png",
+    "leila-stagger-frame-5.png"
+  ],
+  "stagger_source": "taking-punch animation, frame 002 (peak flinch)",
+  "airborne_tuck_source": "two-footed-jump animation (pixellab template), frame 002 (peak mid-air tuck)",
+  "notes": "Five addressable pose textures for GameplayScene swap based on leila.leanState + leila.staggered + leila.airborne. Stagger frames also available for animated stagger clip. Airborne-tuck overrides lean textures during jump arc."
+}
