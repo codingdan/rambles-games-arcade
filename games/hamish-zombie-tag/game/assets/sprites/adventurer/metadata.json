@@ -1,0 +1,103 @@
+{
+  "character": {
+    "id": "fe241238-a743-40f4-8c57-d5e5756d16a2",
+    "name": "adventurer",
+    "prompt": "Chunky-cute chibi adventurer. Small brave explorer. Golden tunic with dark brown belt and leather boots. Hero-gold accents on clothing trim. Warm skin tone. Short sturdy body, large round head. Carries nothing — unarmed. Reads as brave-but-small.",
+    "size": {
+      "width": 68,
+      "height": 68
+    },
+    "template_id": "mannequin",
+    "directions": 4,
+    "view": "low top-down",
+    "created_at": "2026-04-22T03:35:23.550933+00:00"
+  },
+  "game_animations": {
+    "idle": {
+      "folder": "gentle_breathing_bob_standing_still_slight_chest_r-7c1a7071",
+      "frame_count": 4,
+      "directions": ["south", "north", "east", "west"],
+      "template": "breathing-idle",
+      "description": "gentle breathing bob, standing still"
+    },
+    "walk": {
+      "folder": "purposeful_one-tile_stepping_walk_deliberate_footf-6e9c3326",
+      "frame_count": 6,
+      "directions": ["south", "north", "east", "west"],
+      "template": "walking",
+      "description": "purposeful one-tile stepping walk"
+    }
+  },
+  "frames": {
+    "rotations": {
+      "south": "rotations/south.png",
+      "west": "rotations/west.png",
+      "east": "rotations/east.png",
+      "north": "rotations/north.png"
+    },
+    "animations": {
+      "purposeful_one-tile_stepping_walk_deliberate_footf-6e9c3326": {
+        "north": [
+          "animations/purposeful_one-tile_stepping_walk_deliberate_footf-6e9c3326/north/frame_000.png",
+          "animations/purposeful_one-tile_stepping_walk_deliberate_footf-6e9c3326/north/frame_001.png",
+          "animations/purposeful_one-tile_stepping_walk_deliberate_footf-6e9c3326/north/frame_002.png",
+          "animations/purposeful_one-tile_stepping_walk_deliberate_footf-6e9c3326/north/frame_003.png",
+          "animations/purposeful_one-tile_stepping_walk_deliberate_footf-6e9c3326/north/frame_004.png",
+          "animations/purposeful_one-tile_stepping_walk_deliberate_footf-6e9c3326/north/frame_005.png"
+        ],
+        "east": [
+          "animations/purposeful_one-tile_stepping_walk_deliberate_footf-6e9c3326/east/frame_000.png",
+          "animations/purposeful_one-tile_stepping_walk_deliberate_footf-6e9c3326/east/frame_001.png",
+          "animations/purposeful_one-tile_stepping_walk_deliberate_footf-6e9c3326/east/frame_002.png",
+          "animations/purposeful_one-tile_stepping_walk_deliberate_footf-6e9c3326/east/frame_003.png",
+          "animations/purposeful_one-tile_stepping_walk_deliberate_footf-6e9c3326/east/frame_004.png",
+          "animations/purposeful_one-tile_stepping_walk_deliberate_footf-6e9c3326/east/frame_005.png"
+        ],
+        "west": [
+          "animations/purposeful_one-tile_stepping_walk_deliberate_footf-6e9c3326/west/frame_000.png",
+          "animations/purposeful_one-tile_stepping_walk_deliberate_footf-6e9c3326/west/frame_001.png",
+          "animations/purposeful_one-tile_stepping_walk_deliberate_footf-6e9c3326/west/frame_002.png",
+          "animations/purposeful_one-tile_stepping_walk_deliberate_footf-6e9c3326/west/frame_003.png",
+          "animations/purposeful_one-tile_stepping_walk_deliberate_footf-6e9c3326/west/frame_004.png",
+          "animations/purposeful_one-tile_stepping_walk_deliberate_footf-6e9c3326/west/frame_005.png"
+        ],
+        "south": [
+          "animations/purposeful_one-tile_stepping_walk_deliberate_footf-6e9c3326/south/frame_000.png",
+          "animations/purposeful_one-tile_stepping_walk_deliberate_footf-6e9c3326/south/frame_001.png",
+          "animations/purposeful_one-tile_stepping_walk_deliberate_footf-6e9c3326/south/frame_002.png",
+          "animations/purposeful_one-tile_stepping_walk_deliberate_footf-6e9c3326/south/frame_003.png",
+          "animations/purposeful_one-tile_stepping_walk_deliberate_footf-6e9c3326/south/frame_004.png",
+          "animations/purposeful_one-tile_stepping_walk_deliberate_footf-6e9c3326/south/frame_005.png"
+        ]
+      },
+      "gentle_breathing_bob_standing_still_slight_chest_r-7c1a7071": {
+        "east": [
+          "animations/gentle_breathing_bob_standing_still_slight_chest_r-7c1a7071/east/frame_000.png",
+          "animations/gentle_breathing_bob_standing_still_slight_chest_r-7c1a7071/east/frame_001.png",
+          "animations/gentle_breathing_bob_standing_still_slight_chest_r-7c1a7071/east/frame_002.png",
+          "animations/gentle_breathing_bob_standing_still_slight_chest_r-7c1a7071/east/frame_003.png"
+        ],
+        "west": [
+          "animations/gentle_breathing_bob_standing_still_slight_chest_r-7c1a7071/west/frame_000.png",
+          "animations/gentle_breathing_bob_standing_still_slight_chest_r-7c1a7071/west/frame_001.png",
+          "animations/gentle_breathing_bob_standing_still_slight_chest_r-7c1a7071/west/frame_002.png",
+          "animations/gentle_breathing_bob_standing_still_slight_chest_r-7c1a7071/west/frame_003.png"
+        ],
+        "north": [
+          "animations/gentle_breathing_bob_standing_still_slight_chest_r-7c1a7071/north/frame_000.png",
+          "animations/gentle_breathing_bob_standing_still_slight_chest_r-7c1a7071/north/frame_001.png",
+          "animations/gentle_breathing_bob_standing_still_slight_chest_r-7c1a7071/north/frame_002.png",
+          "animations/gentle_breathing_bob_standing_still_slight_chest_r-7c1a7071/north/frame_003.png"
+        ],
+        "south": [
+          "animations/gentle_breathing_bob_standing_still_slight_chest_r-7c1a7071/south/frame_000.png",
+          "animations/gentle_breathing_bob_standing_still_slight_chest_r-7c1a7071/south/frame_001.png",
+          "animations/gentle_breathing_bob_standing_still_slight_chest_r-7c1a7071/south/frame_002.png",
+          "animations/gentle_breathing_bob_standing_still_slight_chest_r-7c1a7071/south/frame_003.png"
+        ]
+      }
+    }
+  },
+  "export_version": "2.0",
+  "export_date": "2026-04-22T03:38:13.248054"
+}

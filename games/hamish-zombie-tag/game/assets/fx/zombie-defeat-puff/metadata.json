@@ -1,0 +1,24 @@
+{
+  "fx_id": "zombie-defeat-puff",
+  "frame_count": 3,
+  "canvas_px": 32,
+  "pixel_density_tier": 32,
+  "animation_duration_ms": 300,
+  "frames": [
+    {
+      "file": "frame_001.png",
+      "pixellab_id": "d9cfb1d2-182a-40ef-ab0f-978423b91b79",
+      "note": "dense compact sickly green mist cloud rising from base"
+    },
+    {
+      "file": "frame_002.png",
+      "pixellab_id": "9dbdc746-ee0e-4ef7-8fd4-69f7d214bb35",
+      "note": "expanding green mist cloud rising upward, lighter edges"
+    },
+    {
+      "file": "frame_003.png",
+      "pixellab_id": "b6ce5199-88b7-426b-999c-9dea888beeed",
+      "note": "faint wisps nearly fully dissipated, sparse ghost remnants"
+    }
+  ]
+}

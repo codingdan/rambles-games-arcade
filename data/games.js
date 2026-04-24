@@ -5,7 +5,7 @@ window.RG_GAMES = [
     "title": "Zombie Tag",
     "genre": "Top-down grid-based tag-chase with stealth-proximity aggro and round-to-round role reversal.",
     "desc": "You are one adventurer in a room crowded with zombies. Or one zombie chasing an adventurer!",
-    "promotedAt": "2026-04-24T04:19:55+00:00",
+    "promotedAt": "2026-04-24T04:42:09+00:00",
     "builtIn": 149644,
     "cover": "cover.png"
   },

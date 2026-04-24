@@ -1,0 +1,24 @@
+{
+  "fx_id": "strike-impact",
+  "frame_count": 3,
+  "canvas_px": 32,
+  "pixel_density_tier": 32,
+  "animation_duration_ms": 200,
+  "frames": [
+    {
+      "file": "frame_001.png",
+      "pixellab_id": "8d508ace-5e1b-48f4-beb4-c6af90643039",
+      "note": "white-hot core, compact gold burst radiating outward"
+    },
+    {
+      "file": "frame_002.png",
+      "pixellab_id": "5a95f126-5e05-4457-844e-dded4fe8d24b",
+      "note": "gold sparks expanding in spikes and flecks"
+    },
+    {
+      "file": "frame_003.png",
+      "pixellab_id": "116c19f3-455a-41d5-91d0-3ed5180c4203",
+      "note": "fading scattered gold flecks dissipating"
+    }
+  ]
+}

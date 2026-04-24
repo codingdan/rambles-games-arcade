@@ -1,0 +1,8 @@
+{
+  "subject": "splintered wooden crate, top-down view, single-tile footprint",
+  "canvas": { "width": 32, "height": 32 },
+  "palette_keys": ["floorboard-brown", "amber-pine", "shadow-deep"],
+  "origin_xy": null,
+  "generated_by_slice": "zombie-round-balance-and-feel-polish",
+  "notes": "Generated at 32x32 to match tile size. Visual centre assessed as within 2px of canvas centre (pixel 16,16); no setOrigin tweak applied. If drift is observed in-game, set origin_xy and add setOrigin to RoomLayout.js crate placement."
+}
