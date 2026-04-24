@@ -2,10 +2,10 @@
 window.RG_GAMES = [
   {
     "id": "leila-snow-boarding",
-    "title": "Leila Snow Boarding",
+    "title": "Snowboard Free",
     "genre": "Top-down-ish vertically-scrolling downhill snowboarding arcade, in the SkiFree lineage: continuous descent, obstacle slalom, inevitable pursuer.",
     "desc": "You are snowboarding down an endless mountain — carving, dodging pines, launching off moguls — and at some point Donald Trump comes bounding down the slope to eat you, just like the SkiFree Yeti.",
-    "promotedAt": "2026-04-24T00:49:55+00:00",
+    "promotedAt": "2026-04-24T01:20:36+00:00",
     "builtIn": 128364
   },
   {
