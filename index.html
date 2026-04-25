@@ -2,6 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Rambles Arcade</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,6 +28,56 @@
   /* tweak-driven overrides */
   body.no-flicker .crt-flicker { animation: none !important; }
   body.no-scanlines .crt-scanlines::before { display: none !important; }
+
+  /* Shell layout — desktop defaults; phone overrides below. */
+  .rg-nav        { display: flex; align-items: center; padding: 12px 20px; gap: 16px; }
+  .rg-nav-sub    { font-size: 10px; letter-spacing: 2px; }
+  .rg-nav-meta   { font-size: 10px; letter-spacing: 2px; display: flex; gap: 16px; }
+  .rg-hero       { display: grid; grid-template-columns: 220px 1fr; gap: 24px; align-items: center; }
+  .rg-hero-cover-wrap { width: 220px; }
+  .rg-hero-title { font-size: 28px; }
+  .rg-toolbar    { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; padding: 10px 14px; }
+  .rg-toolbar input { flex: 1; min-width: 200px; }
+  .rg-detail-head    { display: grid; grid-template-columns: 260px 1fr; gap: 24px; align-items: flex-start; }
+  .rg-detail-cover-wrap { width: 260px; }
+  .rg-detail-title   { font-size: 30px; }
+  .rg-detail-stats   { display: grid; grid-template-columns: repeat(4, 1fr); }
+  .rg-detail-panels  { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; }
+  .rg-card-grid      { display: grid; grid-template-columns: repeat(auto-fill, minmax(var(--rg-grid-min, 320px), 1fr)); gap: 12px; }
+
+  /* Touch devices: hide hover-revealed Play overlay so iOS double-tap doesn't gate the card. */
+  @media (hover: none) { .rg-card-play { display: none !important; } }
+
+  @media (max-width: 640px) {
+    .rg-nav        { padding: 10px 14px; gap: 10px; }
+    .rg-nav-sub    { display: none; }
+    .rg-nav-meta   { gap: 10px; }
+    .rg-nav-clock  { display: none; }
+
+    .rg-hero       { grid-template-columns: 1fr; gap: 14px; padding: 16px !important; }
+    .rg-hero-cover-wrap { width: 140px; margin: 0 auto; }
+    .rg-hero-title { font-size: 22px; }
+
+    .rg-toolbar    { padding: 10px; gap: 8px; }
+    .rg-toolbar input { flex-basis: 100%; min-width: 0; }
+
+    .rg-detail-head    { grid-template-columns: 1fr; gap: 16px; }
+    .rg-detail-cover-wrap { width: min(220px, 70vw); margin: 0 auto; }
+    .rg-detail-title   { font-size: 22px; }
+    .rg-detail-stats   { grid-template-columns: repeat(2, 1fr); }
+    .rg-detail-stats > *:nth-child(2) { border-right: none !important; }
+    .rg-detail-stats > *:nth-child(-n+2) { border-bottom: 1px solid var(--edge); }
+    .rg-detail-panels  { grid-template-columns: 1fr; gap: 16px; }
+
+    .rg-detail-wrap    { padding: 16px !important; gap: 16px !important; }
+    .rg-home-wrap      { padding: 14px 14px 22px !important; gap: 16px !important; }
+
+    .tweaks { display: none !important; }
+
+    /* Phone-friendly card grid: 2 cols on a 360px viewport.
+       Override the variable-driven track so JS inline density doesn't dominate. */
+    .rg-card-grid { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)) !important; gap: 8px; }
+  }
 </style>
 </head>
 <body>

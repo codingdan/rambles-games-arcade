@@ -197,6 +197,7 @@ function GameCard({ game, onOpen, onPlay }) {
         {hover && (
           <button
             onClick={(e) => { e.stopPropagation(); onPlay(game); }}
+            className="crt-glow rg-card-play"
             style={{
               position: 'absolute', inset: 0,
               background: 'color-mix(in srgb, var(--bg) 70%, transparent)',
@@ -204,7 +205,6 @@ function GameCard({ game, onOpen, onPlay }) {
               color: 'var(--accent)', border: 'none', cursor: 'pointer',
               fontSize: 13, letterSpacing: 2, fontFamily: 'inherit',
             }}
-            className="crt-glow"
           >
             ▶ PLAY
           </button>
@@ -238,15 +238,11 @@ function HeroCarousel({ games, onOpen, onPlay }) {
   if (!game) return null;
   const palette = coverPalette(game);
   return (
-    <div style={{
+    <div className="rg-hero" style={{
       position: 'relative',
       border: '1px solid var(--edge)',
       background: 'var(--panel)',
       padding: 20,
-      display: 'grid',
-      gridTemplateColumns: '220px 1fr',
-      gap: 24,
-      alignItems: 'center',
       overflow: 'hidden',
     }}>
       <div style={{
@@ -254,14 +250,14 @@ function HeroCarousel({ games, onOpen, onPlay }) {
         background: `radial-gradient(circle at 25% 50%, color-mix(in srgb, var(--accent) 18%, transparent), transparent 55%)`,
         pointerEvents: 'none',
       }} />
-      <div style={{ position: 'relative', zIndex: 1 }}>
-        <Cover game={game} size={220} border={false} style={{ boxShadow: '0 0 0 1px var(--accent), 0 0 36px -8px var(--accent)' }} />
+      <div className="rg-hero-cover-wrap" style={{ position: 'relative', zIndex: 1 }}>
+        <Cover game={game} size="100%" border={false} style={{ width: '100%', height: 'auto', aspectRatio: '1 / 1', boxShadow: '0 0 0 1px var(--accent), 0 0 36px -8px var(--accent)' }} />
       </div>
       <div style={{ position: 'relative', zIndex: 1, minWidth: 0 }}>
         <div style={{ fontSize: 10, letterSpacing: 3, color: 'var(--accent)', textTransform: 'uppercase' }} className="crt-glow">
           ★ FEATURED ★ #{String(i+1).padStart(2,'0')}/{String(games.length).padStart(2,'0')}
         </div>
-        <div style={{ fontSize: 28, fontWeight: 700, textTransform: 'uppercase', color: 'var(--fg)', margin: '10px 0 6px', lineHeight: 1.05 }} className="crt-glow heading">
+        <div className="crt-glow heading rg-hero-title" style={{ fontWeight: 700, textTransform: 'uppercase', color: 'var(--fg)', margin: '10px 0 6px', lineHeight: 1.05 }}>
           {game.title}
         </div>
         <div style={{ fontSize: 12, color: 'var(--muted)', marginBottom: 14, letterSpacing: 1 }}>
@@ -326,16 +322,16 @@ function GameDetail({ game, onBack, onPlay }) {
 
   const m = meta.metrics || {};
   return (
-    <div style={{ padding: '24px 28px', display: 'flex', flexDirection: 'column', gap: 22 }}>
+    <div className="rg-detail-wrap" style={{ padding: '24px 28px', display: 'flex', flexDirection: 'column', gap: 22 }}>
       <button onClick={onBack} style={{
         alignSelf: 'flex-start', background: 'transparent',
         color: 'var(--muted)', border: 'none', cursor: 'pointer',
         fontSize: 11, letterSpacing: 2, padding: 0, fontFamily: 'inherit',
       }}>◂ BACK TO ARCADE</button>
 
-      <div style={{ display: 'grid', gridTemplateColumns: '260px 1fr', gap: 24, alignItems: 'flex-start' }}>
-        <div style={{ position: 'relative' }}>
-          <Cover game={game} size={260} border={true} style={{ boxShadow: '0 0 0 1px var(--accent), 0 0 44px -8px var(--accent)' }} />
+      <div className="rg-detail-head">
+        <div className="rg-detail-cover-wrap" style={{ position: 'relative' }}>
+          <Cover game={game} size="100%" border={true} style={{ width: '100%', height: 'auto', aspectRatio: '1 / 1', boxShadow: '0 0 0 1px var(--accent), 0 0 44px -8px var(--accent)' }} />
           <button onClick={() => onPlay(game)} style={{
             marginTop: 14, width: '100%',
             background: 'var(--accent)', color: 'var(--bg)',
@@ -350,7 +346,7 @@ function GameDetail({ game, onBack, onPlay }) {
           <div style={{ fontSize: 10, letterSpacing: 3, color: 'var(--accent)', textTransform: 'uppercase' }} className="crt-glow">
             ID: {meta.id.toUpperCase()}
           </div>
-          <div style={{ fontSize: 30, fontWeight: 700, textTransform: 'uppercase', color: 'var(--fg)', margin: '6px 0', lineHeight: 1.05 }} className="crt-glow heading">
+          <div className="crt-glow heading rg-detail-title" style={{ fontWeight: 700, textTransform: 'uppercase', color: 'var(--fg)', margin: '6px 0', lineHeight: 1.05 }}>
             {meta.title}
           </div>
           <div style={{ fontSize: 12, color: 'var(--muted)', letterSpacing: 1, marginBottom: 16 }}>
@@ -363,8 +359,7 @@ function GameDetail({ game, onBack, onPlay }) {
         </div>
       </div>
 
-      <div style={{
-        display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)',
+      <div className="rg-detail-stats" style={{
         border: '1px solid var(--edge)', background: 'var(--panel)',
       }}>
         <Stat label="TIME TO MAKE"  value={m.activeSec != null ? formatDuration(m.activeSec / 60) : '--'} />
@@ -373,7 +368,7 @@ function GameDetail({ game, onBack, onPlay }) {
         <Stat label="TOKENS"        value={(m.inputTokens != null && m.outputTokens != null) ? formatTokens(m.inputTokens + m.outputTokens) : '--'} />
       </div>
 
-      <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 22 }}>
+      <div className="rg-detail-panels">
         <Panel title="TRANSCRIPT // ORIGINAL RAMBLE">
           <div style={{ fontSize: 13, lineHeight: 1.65, color: 'var(--fg)' }}>
             <span style={{ color: 'var(--muted)' }}>&gt; </span>
@@ -515,14 +510,11 @@ function Home({ games, onOpen, onPlay }) {
   else if (sort === 'fast') filtered = filtered.slice().sort((a,b) => (a.builtIn || 0) - (b.builtIn || 0));
 
   return (
-    <div style={{ padding: '20px 28px 28px', display: 'flex', flexDirection: 'column', gap: 22 }}>
+    <div className="rg-home-wrap" style={{ padding: '20px 28px 28px', display: 'flex', flexDirection: 'column', gap: 22 }}>
       <Marquee />
       {featured.length > 0 && <HeroCarousel games={featured} onOpen={onOpen} onPlay={onPlay} />}
 
-      <div style={{
-        display: 'flex', gap: 12, flexWrap: 'wrap',
-        alignItems: 'center',
-        padding: '10px 14px',
+      <div className="rg-toolbar" style={{
         border: '1px solid var(--edge)',
         background: 'var(--panel)',
       }}>
@@ -531,7 +523,6 @@ function Home({ games, onOpen, onPlay }) {
           value={q} onChange={e => setQ(e.target.value)}
           placeholder="TYPE TO FILTER..."
           style={{
-            flex: 1, minWidth: 200,
             background: 'transparent', color: 'var(--fg)',
             border: '1px solid var(--edge)', padding: '6px 10px',
             fontSize: 12, letterSpacing: 1, fontFamily: 'inherit',
@@ -542,11 +533,7 @@ function Home({ games, onOpen, onPlay }) {
         <Select value={sort} options={[['new','NEWEST'], ['fast','FASTEST GEN']]} onChange={setSort} />
       </div>
 
-      <div style={{
-        display: 'grid',
-        gridTemplateColumns: 'repeat(auto-fill, minmax(var(--rg-grid-min, 320px), 1fr))',
-        gap: 12,
-      }}>
+      <div className="rg-card-grid">
         {filtered.map(g => <GameCard key={g.id} game={g} onOpen={onOpen} onPlay={onPlay} />)}
         {filtered.length === 0 && (
           <div style={{ fontSize: 12, color: 'var(--muted)', letterSpacing: 2, padding: 20 }}>
@@ -607,25 +594,22 @@ function Nav({ games }) {
     return () => clearInterval(id);
   }, []);
   return (
-    <div style={{
-      display: 'flex', alignItems: 'center',
-      padding: '12px 20px',
+    <div className="rg-nav" style={{
       borderBottom: '1px solid var(--edge)',
       background: 'var(--panel)',
-      gap: 16,
     }}>
       <div className="crt-glow heading" style={{
         fontSize: 20, fontWeight: 800,
         color: 'var(--accent)',
         letterSpacing: 2, textTransform: 'uppercase',
       }}>RAMBLES*ARCADE</div>
-      <div style={{ fontSize: 10, color: 'var(--muted)', letterSpacing: 2 }}>
+      <div className="rg-nav-sub" style={{ color: 'var(--muted)' }}>
         // AUDIO → PHASER · BUILT BY AGENTS
       </div>
       <div style={{ flex: 1 }} />
-      <div style={{ fontSize: 10, color: 'var(--muted)', letterSpacing: 2, display: 'flex', gap: 16 }}>
+      <div className="rg-nav-meta" style={{ color: 'var(--muted)' }}>
         <span>GAMES: {games.length}</span>
-        <span style={{ fontVariantNumeric: 'tabular-nums' }}>
+        <span className="rg-nav-clock" style={{ fontVariantNumeric: 'tabular-nums' }}>
           {new Date().toTimeString().slice(0,8)}
         </span>
       </div>

@@ -308,6 +308,7 @@ function GameCard({
       e.stopPropagation();
       onPlay(game);
     },
+    className: "crt-glow rg-card-play",
     style: {
       position: 'absolute',
       inset: 0,
@@ -321,8 +322,7 @@ function GameCard({
       fontSize: 13,
       letterSpacing: 2,
       fontFamily: 'inherit'
-    },
-    className: "crt-glow"
+    }
   }, "\u25B6 PLAY")), /*#__PURE__*/React.createElement("div", {
     style: {
       padding: '10px 12px 12px'
@@ -370,15 +370,12 @@ function HeroCarousel({
   if (!game) return null;
   const palette = coverPalette(game);
   return /*#__PURE__*/React.createElement("div", {
+    className: "rg-hero",
     style: {
       position: 'relative',
       border: '1px solid var(--edge)',
       background: 'var(--panel)',
       padding: 20,
-      display: 'grid',
-      gridTemplateColumns: '220px 1fr',
-      gap: 24,
-      alignItems: 'center',
       overflow: 'hidden'
     }
   }, /*#__PURE__*/React.createElement("div", {
@@ -389,15 +386,19 @@ function HeroCarousel({
       pointerEvents: 'none'
     }
   }), /*#__PURE__*/React.createElement("div", {
+    className: "rg-hero-cover-wrap",
     style: {
       position: 'relative',
       zIndex: 1
     }
   }, /*#__PURE__*/React.createElement(Cover, {
     game: game,
-    size: 220,
+    size: "100%",
     border: false,
     style: {
+      width: '100%',
+      height: 'auto',
+      aspectRatio: '1 / 1',
       boxShadow: '0 0 0 1px var(--accent), 0 0 36px -8px var(--accent)'
     }
   })), /*#__PURE__*/React.createElement("div", {
@@ -415,15 +416,14 @@ function HeroCarousel({
     },
     className: "crt-glow"
   }, "\u2605 FEATURED \u2605 #", String(i + 1).padStart(2, '0'), "/", String(games.length).padStart(2, '0')), /*#__PURE__*/React.createElement("div", {
+    className: "crt-glow heading rg-hero-title",
     style: {
-      fontSize: 28,
       fontWeight: 700,
       textTransform: 'uppercase',
       color: 'var(--fg)',
       margin: '10px 0 6px',
       lineHeight: 1.05
-    },
-    className: "crt-glow heading"
+    }
   }, game.title), /*#__PURE__*/React.createElement("div", {
     style: {
       fontSize: 12,
@@ -558,6 +558,7 @@ function GameDetail({
   }
   const m = meta.metrics || {};
   return /*#__PURE__*/React.createElement("div", {
+    className: "rg-detail-wrap",
     style: {
       padding: '24px 28px',
       display: 'flex',
@@ -578,21 +579,20 @@ function GameDetail({
       fontFamily: 'inherit'
     }
   }, "\u25C2 BACK TO ARCADE"), /*#__PURE__*/React.createElement("div", {
-    style: {
-      display: 'grid',
-      gridTemplateColumns: '260px 1fr',
-      gap: 24,
-      alignItems: 'flex-start'
-    }
+    className: "rg-detail-head"
   }, /*#__PURE__*/React.createElement("div", {
+    className: "rg-detail-cover-wrap",
     style: {
       position: 'relative'
     }
   }, /*#__PURE__*/React.createElement(Cover, {
     game: game,
-    size: 260,
+    size: "100%",
     border: true,
     style: {
+      width: '100%',
+      height: 'auto',
+      aspectRatio: '1 / 1',
       boxShadow: '0 0 0 1px var(--accent), 0 0 44px -8px var(--accent)'
     }
   }), /*#__PURE__*/React.createElement("button", {
@@ -631,15 +631,14 @@ function GameDetail({
     },
     className: "crt-glow"
   }, "ID: ", meta.id.toUpperCase()), /*#__PURE__*/React.createElement("div", {
+    className: "crt-glow heading rg-detail-title",
     style: {
-      fontSize: 30,
       fontWeight: 700,
       textTransform: 'uppercase',
       color: 'var(--fg)',
       margin: '6px 0',
       lineHeight: 1.05
-    },
-    className: "crt-glow heading"
+    }
   }, meta.title), /*#__PURE__*/React.createElement("div", {
     style: {
       fontSize: 12,
@@ -659,9 +658,8 @@ function GameDetail({
     src: `games/${meta.id}/${meta.audio.src}`,
     durationSec: meta.audio.durationSec
   }))), /*#__PURE__*/React.createElement("div", {
+    className: "rg-detail-stats",
     style: {
-      display: 'grid',
-      gridTemplateColumns: 'repeat(4, 1fr)',
       border: '1px solid var(--edge)',
       background: 'var(--panel)'
     }
@@ -678,11 +676,7 @@ function GameDetail({
     label: "TOKENS",
     value: m.inputTokens != null && m.outputTokens != null ? formatTokens(m.inputTokens + m.outputTokens) : '--'
   })), /*#__PURE__*/React.createElement("div", {
-    style: {
-      display: 'grid',
-      gridTemplateColumns: '1fr 1fr',
-      gap: 22
-    }
+    className: "rg-detail-panels"
   }, /*#__PURE__*/React.createElement(Panel, {
     title: "TRANSCRIPT // ORIGINAL RAMBLE"
   }, /*#__PURE__*/React.createElement("div", {
@@ -914,6 +908,7 @@ function Home({
   let filtered = games.filter(g => (genre === 'ALL' || g.genre === genre) && (q.trim() === '' || (g.title || '').toLowerCase().includes(q.toLowerCase()) || (g.desc || '').toLowerCase().includes(q.toLowerCase())));
   if (sort === 'new') filtered = filtered.slice().sort((a, b) => new Date(b.promotedAt) - new Date(a.promotedAt));else if (sort === 'fast') filtered = filtered.slice().sort((a, b) => (a.builtIn || 0) - (b.builtIn || 0));
   return /*#__PURE__*/React.createElement("div", {
+    className: "rg-home-wrap",
     style: {
       padding: '20px 28px 28px',
       display: 'flex',
@@ -925,12 +920,8 @@ function Home({
     onOpen: onOpen,
     onPlay: onPlay
   }), /*#__PURE__*/React.createElement("div", {
+    className: "rg-toolbar",
     style: {
-      display: 'flex',
-      gap: 12,
-      flexWrap: 'wrap',
-      alignItems: 'center',
-      padding: '10px 14px',
       border: '1px solid var(--edge)',
       background: 'var(--panel)'
     }
@@ -946,8 +937,6 @@ function Home({
     onChange: e => setQ(e.target.value),
     placeholder: "TYPE TO FILTER...",
     style: {
-      flex: 1,
-      minWidth: 200,
       background: 'transparent',
       color: 'var(--fg)',
       border: '1px solid var(--edge)',
@@ -966,11 +955,7 @@ function Home({
     options: [['new', 'NEWEST'], ['fast', 'FASTEST GEN']],
     onChange: setSort
   })), /*#__PURE__*/React.createElement("div", {
-    style: {
-      display: 'grid',
-      gridTemplateColumns: 'repeat(auto-fill, minmax(var(--rg-grid-min, 320px), 1fr))',
-      gap: 12
-    }
+    className: "rg-card-grid"
   }, filtered.map(g => /*#__PURE__*/React.createElement(GameCard, {
     key: g.id,
     game: g,
@@ -1051,13 +1036,10 @@ function Nav({
     return () => clearInterval(id);
   }, []);
   return /*#__PURE__*/React.createElement("div", {
+    className: "rg-nav",
     style: {
-      display: 'flex',
-      alignItems: 'center',
-      padding: '12px 20px',
       borderBottom: '1px solid var(--edge)',
-      background: 'var(--panel)',
-      gap: 16
+      background: 'var(--panel)'
     }
   }, /*#__PURE__*/React.createElement("div", {
     className: "crt-glow heading",
@@ -1069,24 +1051,21 @@ function Nav({
       textTransform: 'uppercase'
     }
   }, "RAMBLES*ARCADE"), /*#__PURE__*/React.createElement("div", {
+    className: "rg-nav-sub",
     style: {
-      fontSize: 10,
-      color: 'var(--muted)',
-      letterSpacing: 2
+      color: 'var(--muted)'
     }
   }, "// AUDIO \u2192 PHASER \xB7 BUILT BY AGENTS"), /*#__PURE__*/React.createElement("div", {
     style: {
       flex: 1
     }
   }), /*#__PURE__*/React.createElement("div", {
+    className: "rg-nav-meta",
     style: {
-      fontSize: 10,
-      color: 'var(--muted)',
-      letterSpacing: 2,
-      display: 'flex',
-      gap: 16
+      color: 'var(--muted)'
     }
   }, /*#__PURE__*/React.createElement("span", null, "GAMES: ", games.length), /*#__PURE__*/React.createElement("span", {
+    className: "rg-nav-clock",
     style: {
       fontVariantNumeric: 'tabular-nums'
     }
