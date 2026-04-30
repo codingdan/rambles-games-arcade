@@ -4,8 +4,8 @@ window.RG_GAMES = [
     "id": "ladybird-counting",
     "title": "Ladybird Garden",
     "genre": "Interactive counting picture-book — tap-to-match, no fail state, two-phase pedagogy (guided lesson, then self-find), 1–5 only.",
-    "desc": "A pretty ladybird flies into a sunlit garden, lands on a flower, and a big soft number floats up for you to tap.",
-    "promotedAt": "2026-04-30T04:40:11+00:00",
+    "desc": "Learn to count to 5 with ladybirds in a sunlit garden.",
+    "promotedAt": "2026-04-30T06:50:17+00:00",
     "builtIn": 104277,
     "cover": "cover.png"
   },
