@@ -1,0 +1,214 @@
+{
+  "schemaVersion": 1,
+  "id": "ants-game",
+  "title": "Crumb & Crown",
+  "genre": "Real-time cutaway-nest colony sim — light strategy, idle-friendly pacing, single always-visible play space.",
+  "desc": "You are the Queen at the heart of a living anthill, watching your colony tunnel, forage, and grow around you while you dole out the only two things that matter: food and workers.",
+  "promotedAt": "2026-04-30T06:53:32+00:00",
+  "metrics": {
+    "wallClockSec": 351894.0,
+    "activeSec": 263191.497,
+    "costUsd": 305.67837725,
+    "inputTokens": 186409,
+    "outputTokens": 5028400,
+    "stagesRun": 197,
+    "turns": 6871
+  },
+  "changelog": [
+    {
+      "cycle": 1,
+      "slice": "living-nest",
+      "status": "approved",
+      "phasesDone": 7,
+      "phasesFailed": 0,
+      "durationSec": 4895.704,
+      "costUsd": 10.872323699999999
+    },
+    {
+      "cycle": 2,
+      "slice": "food-economy",
+      "status": "approved",
+      "phasesDone": 8,
+      "phasesFailed": 0,
+      "durationSec": 7430.232,
+      "costUsd": 17.8110855
+    },
+    {
+      "cycle": 3,
+      "slice": "play-feel-fix",
+      "status": "approved",
+      "phasesDone": 3,
+      "phasesFailed": 0,
+      "durationSec": 3015.1549999999997,
+      "costUsd": 7.855412499999999
+    },
+    {
+      "cycle": 4,
+      "slice": "forage-slope-fix",
+      "status": "approved",
+      "phasesDone": 2,
+      "phasesFailed": 0,
+      "durationSec": 4888.671,
+      "costUsd": 7.7833391
+    },
+    {
+      "cycle": 5,
+      "slice": "dig-chambers",
+      "status": "approved",
+      "phasesDone": 7,
+      "phasesFailed": 0,
+      "durationSec": 10676.234,
+      "costUsd": 21.4214386
+    },
+    {
+      "cycle": 6,
+      "slice": "hatch-and-grow",
+      "status": "approved",
+      "phasesDone": 8,
+      "phasesFailed": 0,
+      "durationSec": 6460.811,
+      "costUsd": 16.98305375
+    },
+    {
+      "cycle": 7,
+      "slice": "win-ceremony",
+      "status": "approved",
+      "phasesDone": 8,
+      "phasesFailed": 0,
+      "durationSec": 6272.063,
+      "costUsd": 15.0407814
+    },
+    {
+      "cycle": 8,
+      "slice": "play-feel-pass-2",
+      "status": "approved",
+      "phasesDone": 8,
+      "phasesFailed": 0,
+      "durationSec": 8004.3730000000005,
+      "costUsd": 17.85640845
+    },
+    {
+      "cycle": 9,
+      "slice": "roles-and-cap",
+      "status": "approved",
+      "phasesDone": 6,
+      "phasesFailed": 0,
+      "durationSec": 5716.311,
+      "costUsd": 13.023272850000001
+    },
+    {
+      "cycle": 10,
+      "slice": "role-characters",
+      "status": "approved",
+      "phasesDone": 6,
+      "phasesFailed": 0,
+      "durationSec": 4653.283,
+      "costUsd": 16.43836695
+    },
+    {
+      "cycle": 11,
+      "slice": "play-feel-pass-3",
+      "status": "approved",
+      "phasesDone": 5,
+      "phasesFailed": 0,
+      "durationSec": 4928.264,
+      "costUsd": 14.498571149999998
+    },
+    {
+      "cycle": 12,
+      "slice": "audio-pass",
+      "status": "approved",
+      "phasesDone": 5,
+      "phasesFailed": 0,
+      "durationSec": 6014.234,
+      "costUsd": 14.751676650000002
+    },
+    {
+      "cycle": 13,
+      "slice": "audio-variety",
+      "status": "approved",
+      "phasesDone": 3,
+      "phasesFailed": 0,
+      "durationSec": 2748.469,
+      "costUsd": 8.89792875
+    },
+    {
+      "cycle": 14,
+      "slice": "play-feel-pass-4",
+      "status": "approved",
+      "phasesDone": 4,
+      "phasesFailed": 0,
+      "durationSec": 5742.673,
+      "costUsd": 16.6455386
+    },
+    {
+      "cycle": 15,
+      "slice": "pf4-probe-fix",
+      "status": "approved",
+      "phasesDone": 2,
+      "phasesFailed": 0,
+      "durationSec": 2562.562,
+      "costUsd": 8.487533599999999
+    },
+    {
+      "cycle": 16,
+      "slice": "probe-gate-close",
+      "status": "approved",
+      "phasesDone": 2,
+      "phasesFailed": 0,
+      "durationSec": 1307.734,
+      "costUsd": 3.37244065
+    },
+    {
+      "cycle": 17,
+      "slice": "hatch-slot-drain-fix",
+      "status": "approved",
+      "phasesDone": 2,
+      "phasesFailed": 0,
+      "durationSec": 4000.5950000000003,
+      "costUsd": 8.244036750000001
+    },
+    {
+      "cycle": 18,
+      "slice": "birth-sequence-rework",
+      "status": "approved",
+      "phasesDone": 6,
+      "phasesFailed": 0,
+      "durationSec": 8484.08,
+      "costUsd": 22.7276587
+    },
+    {
+      "cycle": 19,
+      "slice": "birth-sequence-close",
+      "status": "approved",
+      "phasesDone": 4,
+      "phasesFailed": 0,
+      "durationSec": 3053.611,
+      "costUsd": 7.307894549999999
+    },
+    {
+      "cycle": 20,
+      "slice": "birth-de-creep",
+      "status": "approved",
+      "phasesDone": 6,
+      "phasesFailed": 0,
+      "durationSec": 3700.814,
+      "costUsd": 12.56913635
+    },
+    {
+      "cycle": 21,
+      "slice": "slot-uniqueness-2x3-fix",
+      "status": "approved",
+      "phasesDone": 2,
+      "phasesFailed": 0,
+      "durationSec": 1336.515,
+      "costUsd": 3.3496034
+    }
+  ],
+  "transcript": "So this is a game about managing an ant colony. You control the queen and you give orders to the ant colony and you're basically managing the food resource and the worker resource. So you can tell your ants to go and scout for food and they're gonna go out and try and find a food source. They have a percentage chance of finding something. Then you can send out workers to collect food from food sources you found and it might have a maximum cap of workers based on how big it is and that gives you a stream of food coming in until that food source is depleted. Then when you have a surplus of food your ants nest consumes food based on how big it is. When you have a surplus you can tell your workers to go and build out the nest like build more sleeping chambers or whatever and then now you have a bigger capacity for more ants and the Queen will make more ants if there's but it takes a continual amount of food. If you deplete the food you start losing ants and it's you basically are looking at the Queen ant and the nest as the main screen and you see those resources and you can allocate them and then allocating them takes up that worker ant until the task is completed. Then as the nest grows you see it on your screen growing bigger that's kind of the visual you get so you're watching this ants nest with ants moving throughout it and you see the Queen ant very visible and then the rest of the UI is dedicated to viewing and managing those resources but it should be a kid-friendly game to play. Ideally it works on mobile as well.",
+  "audio": {
+    "src": "audio.mp3",
+    "durationSec": 139.12
+  },
+  "cover": "cover.png"
+}

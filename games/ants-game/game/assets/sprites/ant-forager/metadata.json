@@ -1,0 +1,34 @@
+{
+  "character": {
+    "id": "77e3d1d3-d24b-4ba4-80b9-ae2820e65fde",
+    "name": "ant-forager",
+    "prompt": "small chunky-cute worker ant, dark warm-brown body (#3a1f12), three body segments, six legs in tripod stance, oversized head with simple antennae, no crown. Slightly hunched loaded posture. Small carry-pouch slung on the side of the abdomen, warm amber leather strap (#d9b271) integrated into the body, strap is snug against the abdomen not floating. Body and proportions identical to worker-ant family.",
+    "size": {
+      "width": 68,
+      "height": 68
+    },
+    "template_id": "mannequin",
+    "directions": 4,
+    "view": "side",
+    "created_at": "2026-04-27T04:14:00.000000+00:00"
+  },
+  "frames": {
+    "rotations": {
+      "south": "rotations/south.png",
+      "east":  "rotations/east.png",
+      "north": "rotations/north.png",
+      "west":  "rotations/west.png"
+    },
+    "animations": {
+      "walk": {
+        "template": "walking-8-frames",
+        "frames_per_dir": 8,
+        "sheet": "animations/walk/spritesheet.png",
+        "sheet_size": "544x272",
+        "row_order": ["south", "east", "north", "west"]
+      }
+    }
+  },
+  "export_version": "2.0",
+  "export_date": "2026-04-27T04:30:00.000000"
+}

@@ -1,0 +1,42 @@
+{
+  "character": {
+    "id": "a58afc8e-0f31-4c6a-869f-ba23b9f06a03",
+    "name": "ant-digger",
+    "prompt": "small chunky-cute worker ant, dark warm-brown body (#3a1f12), three body segments, six legs in tripod stance, oversized head with simple antennae, no crown. Wearing a chunky construction helmet integrated into the head silhouette — warm amber/cream helmet (#c88a3c/#ffd089) with brim pulled forward, helmet replaces the bare head outline and sits directly on the head. Body and proportions identical to worker-ant family.",
+    "size": {
+      "width": 68,
+      "height": 68
+    },
+    "template_id": "mannequin",
+    "directions": 4,
+    "view": "side",
+    "created_at": "2026-04-27T04:14:00.000000+00:00"
+  },
+  "frames": {
+    "rotations": {
+      "south": "rotations/south.png",
+      "east":  "rotations/east.png",
+      "north": "rotations/north.png",
+      "west":  "rotations/west.png"
+    },
+    "animations": {
+      "walk": {
+        "template": "walking-8-frames",
+        "frames_per_dir": 8,
+        "sheet": "animations/walk/spritesheet.png",
+        "sheet_size": "544x272",
+        "row_order": ["south", "east", "north", "west"]
+      },
+      "dig": {
+        "template": "picking-up",
+        "frames_per_dir": 5,
+        "sheet": "animations/dig/spritesheet.png",
+        "sheet_size": "340x272",
+        "row_order": ["south", "east", "north", "west"],
+        "note": "picking-up template used for lean-forward dig motion; 5 frames per direction"
+      }
+    }
+  },
+  "export_version": "2.0",
+  "export_date": "2026-04-27T04:30:00.000000"
+}

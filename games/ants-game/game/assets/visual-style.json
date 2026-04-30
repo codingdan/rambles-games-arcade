@@ -1,0 +1,45 @@
+{
+  "pixel_density_tier": 32,
+  "perspective": "side",
+  "humanoid_proportions": "chibi-bug",
+  "palette": {
+    "sky_top":        "0x9ed6ff",
+    "sky_bottom":     "0xc8eaff",
+    "grass":          "0x6ab04c",
+    "soil":           "0x2b1a14",
+    "chamber_warm":   "0xc88a3c",
+    "chamber_glow":   "0xffd089",
+    "ant_body":       "0x3a1f12",
+    "queen_accent":   "0xd99a55"
+  },
+  "vibe": ["cozy", "lived-in", "chunky-cute"],
+  "established_creatures": {
+    "queen":       { "canvas": "92x92", "palette": "ant_body+queen_accent",   "view": "side-4dir", "anim_idle": "breathing-idle-4frames", "anim_lay": "lay-8frames" },
+    "worker":      { "canvas": "68x68", "palette": "ant_body+ant_highlight",  "view": "side-4dir", "anim_walk": "walking-8frames", "anim_dig": "dig-4frames", "anim_emerge": "emerge-8frames — re-assembled spritesheet (544x272 = 8 cols × 4 rows of 68×68); per-direction frames unchanged from prior commission, sheet layout corrected to match generateFrameNumbers start:8 end:15" },
+    "ant-scout":   { "canvas": "68x68", "palette": "ant_body+scout_green",    "view": "side-4dir", "anim_walk": "walking-8frames", "role_marker": "pointed leaf-green explorer cap integrated into head silhouette, sits low and slightly forward over eyes" },
+    "ant-forager": { "canvas": "68x68", "palette": "ant_body+amber_leather",  "view": "side-4dir", "anim_walk": "walking-8frames", "role_marker": "small carry-pouch slung on abdomen side, warm amber leather strap integrated into body" },
+    "ant-digger":  { "canvas": "68x68", "palette": "ant_body+amber_helmet",   "view": "side-4dir", "anim_walk": "walking-8frames", "anim_dig": "picking-up-4frames", "role_marker": "chunky construction helmet integrated into head silhouette, warm amber/cream brim pulled forward" }
+  },
+  "map_objects": { "seed": 1744,
+    "brood-cluster":  { "canvas": "64x48",  "desc": "egg+larva cluster" },
+    "crumbs-set":     { "canvas": "96x32",  "cells": ["crumb-bread","crumb-apple","crumb-sugar"], "cell_size": "32x32" },
+    "soil-decor-set":   { "canvas": "144x48", "cells": ["decor-root","decor-pebble","decor-dirtpile"], "cell_size": "48x48" },
+    "food-sources-set": { "canvas": "144x48", "cells": ["apple-core","sandwich-crumb","sugar-cube"], "cell_size": "48x48" },
+    "egg-and-larva-set": { "canvas": "288x32", "cells": ["egg_single","egg_cluster_small","egg_cluster_medium","larva_single","larva_cluster_small","larva_cluster_medium"], "cell_size": "48x32", "notes": "egg_single now 48x40, larva_single now 64x40 (re-commissioned birth-sequence-rework); cluster cells preserved at original 48x32" },
+    "egg-hatch": { "canvas": "512x64", "cells": 8, "cell_size": "64x64", "anim": "egg-cracking-8frames", "desc": "f0: intact still egg; f1: egg tilts/bulges left (wiggle, no crack); f2: egg tilts/bulges right (wiggle, no crack); f3: hairline crack visible at top-centre (≥3px dark line); f4: crack widens clearly, shell splitting; f5: shell top portion lifts, dark shadow inside gap; f6: shell halves clearly separating, gap spans ≥1/3 egg width; f7: shell fully open, both halves splayed, dark hollow interior visible" },
+    "egg-shell": { "canvas": "40x32", "desc": "cracked egg-shell halves lying on chamber floor — lingers ~1 s after hatch anim completes" },
+    "queen-crown": { "canvas": "32x32", "desc": "warm-amber chunky-cute crown for queen ceremony" },
+    "ceremony-sparkles-set": { "canvas": "128x32", "cells": ["sparkle-amber","sparkle-cream","sparkle-leaf","sparkle-glint"], "cell_size": "32x32" },
+    "larder-piles-set": {
+      "canvas": "64x40", "cells": ["empty","small","medium","large"], "individual_pngs": true,
+      "path": "sprites/larder-piles-set/",
+      "palette": { "outline": "#1a0f0a", "bread": "#c88a3c", "bread_hi": "#ffd089", "apple": "#cc3333", "sugar": "#f5f0e0" },
+      "prompts": {
+        "empty": "pebble scatter on bare chamber floor, warm amber-beige, chunky-cute, low top-down, transparent bg",
+        "small":  "2-3 bread crumbs + apple wedge + sugar cube, modest pile, ~30x18px footprint, warm amber palette",
+        "medium": "4-6 mixed food items heap, ~50x28px footprint, warm amber palette, chunky-cute",
+        "large":  "8-10 mixed items full mound, ~62x36px footprint, warm amber palette, chunky-cute"
+      }
+    }
+  }
+}

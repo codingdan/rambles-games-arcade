@@ -1,0 +1,69 @@
+{
+  "character": {
+    "id": "26d20ece-2d5d-4516-b0af-a078c097a4dd",
+    "name": "worker-ant",
+    "prompt": "worker ant, small chunky-cute, dark warm-brown body, three body segments, six legs in tripod stance, oversized head with simple antennae, no crown",
+    "size": {
+      "width": 68,
+      "height": 68
+    },
+    "template_id": "mannequin",
+    "directions": 4,
+    "view": "side",
+    "created_at": "2026-04-26T05:39:40.991705+00:00"
+  },
+  "frames": {
+    "rotations": {
+      "south": "rotations/south.png",
+      "west": "rotations/west.png",
+      "east": "rotations/east.png",
+      "north": "rotations/north.png"
+    },
+    "animations": {
+      "The_worker_ant_begins_from_a_neutral_tripod_stance-33e8afa6": {
+        "east": [
+          "animations/The_worker_ant_begins_from_a_neutral_tripod_stance-33e8afa6/east/frame_000.png",
+          "animations/The_worker_ant_begins_from_a_neutral_tripod_stance-33e8afa6/east/frame_001.png",
+          "animations/The_worker_ant_begins_from_a_neutral_tripod_stance-33e8afa6/east/frame_002.png",
+          "animations/The_worker_ant_begins_from_a_neutral_tripod_stance-33e8afa6/east/frame_003.png",
+          "animations/The_worker_ant_begins_from_a_neutral_tripod_stance-33e8afa6/east/frame_004.png",
+          "animations/The_worker_ant_begins_from_a_neutral_tripod_stance-33e8afa6/east/frame_005.png",
+          "animations/The_worker_ant_begins_from_a_neutral_tripod_stance-33e8afa6/east/frame_006.png",
+          "animations/The_worker_ant_begins_from_a_neutral_tripod_stance-33e8afa6/east/frame_007.png"
+        ],
+        "west": [
+          "animations/The_worker_ant_begins_from_a_neutral_tripod_stance-33e8afa6/west/frame_000.png",
+          "animations/The_worker_ant_begins_from_a_neutral_tripod_stance-33e8afa6/west/frame_001.png",
+          "animations/The_worker_ant_begins_from_a_neutral_tripod_stance-33e8afa6/west/frame_002.png",
+          "animations/The_worker_ant_begins_from_a_neutral_tripod_stance-33e8afa6/west/frame_003.png",
+          "animations/The_worker_ant_begins_from_a_neutral_tripod_stance-33e8afa6/west/frame_004.png",
+          "animations/The_worker_ant_begins_from_a_neutral_tripod_stance-33e8afa6/west/frame_005.png",
+          "animations/The_worker_ant_begins_from_a_neutral_tripod_stance-33e8afa6/west/frame_006.png",
+          "animations/The_worker_ant_begins_from_a_neutral_tripod_stance-33e8afa6/west/frame_007.png"
+        ],
+        "south": [
+          "animations/The_worker_ant_begins_from_a_neutral_tripod_stance-33e8afa6/south/frame_000.png",
+          "animations/The_worker_ant_begins_from_a_neutral_tripod_stance-33e8afa6/south/frame_001.png",
+          "animations/The_worker_ant_begins_from_a_neutral_tripod_stance-33e8afa6/south/frame_002.png",
+          "animations/The_worker_ant_begins_from_a_neutral_tripod_stance-33e8afa6/south/frame_003.png",
+          "animations/The_worker_ant_begins_from_a_neutral_tripod_stance-33e8afa6/south/frame_004.png",
+          "animations/The_worker_ant_begins_from_a_neutral_tripod_stance-33e8afa6/south/frame_005.png",
+          "animations/The_worker_ant_begins_from_a_neutral_tripod_stance-33e8afa6/south/frame_006.png",
+          "animations/The_worker_ant_begins_from_a_neutral_tripod_stance-33e8afa6/south/frame_007.png"
+        ],
+        "north": [
+          "animations/The_worker_ant_begins_from_a_neutral_tripod_stance-33e8afa6/north/frame_000.png",
+          "animations/The_worker_ant_begins_from_a_neutral_tripod_stance-33e8afa6/north/frame_001.png",
+          "animations/The_worker_ant_begins_from_a_neutral_tripod_stance-33e8afa6/north/frame_002.png",
+          "animations/The_worker_ant_begins_from_a_neutral_tripod_stance-33e8afa6/north/frame_003.png",
+          "animations/The_worker_ant_begins_from_a_neutral_tripod_stance-33e8afa6/north/frame_004.png",
+          "animations/The_worker_ant_begins_from_a_neutral_tripod_stance-33e8afa6/north/frame_005.png",
+          "animations/The_worker_ant_begins_from_a_neutral_tripod_stance-33e8afa6/north/frame_006.png",
+          "animations/The_worker_ant_begins_from_a_neutral_tripod_stance-33e8afa6/north/frame_007.png"
+        ]
+      }
+    }
+  },
+  "export_version": "2.0",
+  "export_date": "2026-04-26T05:43:29.756890"
+}
