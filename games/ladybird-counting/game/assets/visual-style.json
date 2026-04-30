@@ -1,0 +1,19 @@
+{
+  "pixel_density_tier": 32,
+  "palette": {
+    "meadow-green": "#6FB66B", "sky-blue": "#BFE3F7", "sun-cream": "#FCEFD4",
+    "petal-pink": "#F4B7C7", "butter-yellow": "#F7E08A", "lavender": "#C9B6E4",
+    "soft-white": "#FFF7E8", "ladybird-red": "#E04848", "spot-black": "#1F1A1A",
+    "sun-gold": "#F4C66F"
+  },
+  "outline": "single color black outline",
+  "outline_background": "lineless",
+  "shading": { "hero_flowers": "detailed shading", "ambient_props": "medium shading" },
+  "detail": { "character_numbers_flowers": "high detail", "fluff_petals": "medium detail" },
+  "view": { "ladybird_flowers": "high top-down", "background": "side" },
+  "humanoid_proportions": "n/a",
+  "established_creatures": {
+    "ladybird": "red shell, seven black spots, two black antennae forward, six tiny black legs, gentle round head, picture-book style — never aggressive"
+  },
+  "tone_keywords": ["picture-book", "soft", "sun-dappled", "chunky-cute", "never-punishing"]
+}

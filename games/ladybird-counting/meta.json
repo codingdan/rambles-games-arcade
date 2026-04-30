@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "id": "ladybird-counting",
+  "title": "Ladybird Garden",
+  "genre": "Interactive counting picture-book — tap-to-match, no fail state, two-phase pedagogy (guided lesson, then self-find), 1–5 only.",
+  "desc": "A pretty ladybird flies into a sunlit garden, lands on a flower, and a big soft number floats up for you to tap.",
+  "promotedAt": "2026-04-30T04:40:11+00:00",
+  "metrics": {
+    "wallClockSec": 104934.0,
+    "activeSec": 104277.329,
+    "costUsd": 67.95219985,
+    "inputTokens": 39891,
+    "outputTokens": 1324698,
+    "stagesRun": 53,
+    "turns": 1686
+  },
+  "changelog": [
+    {
+      "cycle": 1,
+      "slice": "lesson-glade",
+      "status": "approved",
+      "phasesDone": 10,
+      "phasesFailed": 0,
+      "durationSec": 12259.109,
+      "costUsd": 30.083693999999998
+    },
+    {
+      "cycle": 2,
+      "slice": "quiz-meadow",
+      "status": "approved",
+      "phasesDone": 7,
+      "phasesFailed": 0,
+      "durationSec": 8247.530999999999,
+      "costUsd": 17.69607225
+    },
+    {
+      "cycle": 3,
+      "slice": "replay-loop-fix",
+      "status": "approved",
+      "phasesDone": 3,
+      "phasesFailed": 0,
+      "durationSec": 2439.767,
+      "costUsd": 6.8630984
+    },
+    {
+      "cycle": 4,
+      "slice": "tap-hitbox-fix",
+      "status": "approved",
+      "phasesDone": 4,
+      "phasesFailed": 0,
+      "durationSec": 2648.437,
+      "costUsd": 7.4625658999999995
+    }
+  ],
+  "transcript": "we have a counting game for really little kids, she is three. there is a ladybird and she is so pretty. the garden is beautiful and vibrant and really relaxing to look at. a ladybird flies in and lands on a flower. the number one floats up in a big bubbly font and you click it. then a second ladybird flies in and lands on another flower. now you click the two that floats up. then a third one. you always click the number that matches how many ladybirds are there. it counts up to five. first the game teaches you — one flies in and the one glows and you click it, two flies in and the two glows and you click it, all the way up to five. then a new scene, some ladybirds fly in and land on flowers and you have to find and click the right number yourself. it is never punishing. if you get it wrong nothing bad happens. it is just beautiful and calm and you are learning to count. the game should research the best ways to teach a three year old to count and use those ideas. big soft numbers, a peaceful garden, ladybirds landing on flowers, count to five.",
+  "cover": "cover.png"
+}
