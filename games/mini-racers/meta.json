@@ -6,7 +6,7 @@
   "desc": "You are a thumb-sized car ripping around a real kitchen table, three laps, trading paint with rival AI cars and threading between cereal boxes, fork tines, and slicks of spilled juice to take the chequer first.",
   "promotedAt": "2026-06-01T10:19:17+00:00",
   "metrics": {
-    "wallClockSec": 124517.0,
+    "wallClockSec": 124517,
     "activeSec": 112546.733,
     "costUsd": 167.24633755,
     "inputTokens": 111396,

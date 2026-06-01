@@ -10,7 +10,7 @@
     "durationSec": 12.64
   },
   "metrics": {
-    "wallClockSec": 216793.0,
+    "wallClockSec": 216793,
     "activeSec": 153563.001,
     "costUsd": 129.5082103,
     "inputTokens": 63263,
@@ -25,7 +25,7 @@
       "status": "approved",
       "phasesDone": 10,
       "phasesFailed": 0,
-      "durationSec": 16714.0,
+      "durationSec": 16714,
       "costUsd": 12.1013
     },
     {
@@ -34,7 +34,7 @@
       "status": "approved",
       "phasesDone": 9,
       "phasesFailed": 0,
-      "durationSec": 11335.0,
+      "durationSec": 11335,
       "costUsd": 9.6984
     },
     {
@@ -43,7 +43,7 @@
       "status": "approved",
       "phasesDone": 10,
       "phasesFailed": 0,
-      "durationSec": 21155.0,
+      "durationSec": 21155,
       "costUsd": 16.784499999999998
     },
     {
@@ -52,7 +52,7 @@
       "status": "approved",
       "phasesDone": 6,
       "phasesFailed": 0,
-      "durationSec": 20419.0,
+      "durationSec": 20419,
       "costUsd": 13.2338
     },
     {
@@ -61,7 +61,7 @@
       "status": "approved",
       "phasesDone": 7,
       "phasesFailed": 0,
-      "durationSec": 18267.0,
+      "durationSec": 18267,
       "costUsd": 14.9055
     },
     {
@@ -70,7 +70,7 @@
       "status": "approved",
       "phasesDone": 6,
       "phasesFailed": 0,
-      "durationSec": 16906.0,
+      "durationSec": 16906,
       "costUsd": 11.6023
     },
     {
@@ -79,7 +79,7 @@
       "status": "approved",
       "phasesDone": 6,
       "phasesFailed": 0,
-      "durationSec": 16486.0,
+      "durationSec": 16486,
       "costUsd": 14.456900000000001
     },
     {

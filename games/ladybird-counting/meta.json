@@ -6,7 +6,7 @@
   "desc": "Learn to count to 5 with ladybirds in a sunlit garden.",
   "promotedAt": "2026-04-30T06:50:17+00:00",
   "metrics": {
-    "wallClockSec": 104934.0,
+    "wallClockSec": 104934,
     "activeSec": 104277.329,
     "costUsd": 67.95219985,
     "inputTokens": 39891,

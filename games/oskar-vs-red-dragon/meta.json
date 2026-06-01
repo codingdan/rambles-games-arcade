@@ -6,7 +6,7 @@
   "desc": "You are Oskar — a dwarf so small the dragon should swallow him whole — and you walk into the dragon's cave anyway, big sword drawn and red cape flying, to stop it before it breaks out and burns the world.",
   "promotedAt": "2026-06-01T10:19:21+00:00",
   "metrics": {
-    "wallClockSec": 63709.0,
+    "wallClockSec": 63709,
     "activeSec": 52167.496,
     "costUsd": 101.0284072,
     "inputTokens": 26412,
