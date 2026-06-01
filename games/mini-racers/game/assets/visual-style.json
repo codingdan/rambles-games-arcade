@@ -1,0 +1,30 @@
+{
+  "pixel_density_tier": 32,
+  "palette": ["milk-white", "sunny-yellow", "juice-orange", "cereal-box-red", "butter-cream", "fork-silver"],
+  "companion_palette": {
+    "rival-blue":   "sky-blue",
+    "rival-yellow": "sunny-yellow"
+  },
+  "humanoid_proportions": "n/a",
+  "view": "high top-down",
+  "assets": {
+    "fonts": {
+      "PressStart2P-Regular": {
+        "tool":    "manual_bundle",
+        "license": "OFL-1.1",
+        "file":    "assets/fonts/PressStart2P-Regular.ttf"
+      }
+    }
+  },
+  "established_assets": {
+    "table-bg":      { "tool": "create_map_object", "canvas_px": [400, 400], "display_px": [800, 608] },
+    "placemat-tile": { "tool": "create_map_object", "canvas_px": [64, 64] },
+    "finish-tape":   { "tool": "create_map_object", "canvas_px": [96, 96] },
+    "player-car":    { "tool": "create_map_object", "canvas_px": [32, 32] },
+    "rival-blue":    { "tool": "create_map_object", "canvas_px": [32, 32] },
+    "rival-yellow":  { "tool": "create_map_object", "canvas_px": [32, 32] },
+    "cereal-box":    { "tool": "create_map_object", "canvas_px": [64, 48] },
+    "fork":          { "tool": "create_map_object", "canvas_px": [128, 40] },
+    "juice-spill":   { "tool": "create_map_object", "canvas_px": [80, 72] }
+  }
+}

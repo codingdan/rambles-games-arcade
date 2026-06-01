@@ -1,0 +1,9 @@
+{
+  "id": "cereal-box",
+  "tool": "create_map_object",
+  "pixellab_object_id": "08d9dcd6-4e4c-43f0-8a42-16c138907580",
+  "canvas_px": { "w": 64, "h": 48 },
+  "note": "Chunky breakfast cereal box from high top-down. Red body, butter-cream logo band, milk-white top-flap highlight. Display ~56x40 px in scene.",
+  "view": "high top-down",
+  "file": "cereal-box.png"
+}

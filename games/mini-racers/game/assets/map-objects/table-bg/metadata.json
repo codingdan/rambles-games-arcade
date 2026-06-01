@@ -1,0 +1,10 @@
+{
+  "id": "table-bg",
+  "tool": "create_map_object",
+  "pixellab_object_id": "9416fdb3-49a4-4f2d-9e4a-d814ad6b3d83",
+  "canvas_px": { "w": 400, "h": 400 },
+  "display_px": { "w": 800, "h": 608 },
+  "view": "high top-down",
+  "note": "Composite from PixelLab source 9416fdb3 (square table, excellent horizontal wood grain striations, bevelled frame). Wood region x∈[55,344] y∈[57,340] from source stretched via nearest-neighbour to x∈[15,384] y∈[15,399] in output. 15-px soft sky-blue (#a8c8d8) tile-floor strip on top, left, right only — no floor at bottom (bottom edge of table intentionally off-canvas). Dark-honey (#8a5a2a) 1-px bevel line at wood/floor seam on three visible sides (y=15, x=15, x=385). Script: scripts/composite-table-bg.mjs.",
+  "file": "table-bg.png"
+}

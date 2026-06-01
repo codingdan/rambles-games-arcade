@@ -1,0 +1,10 @@
+{
+  "id": "rival-blue",
+  "tool": "create_map_object",
+  "pixellab_object_id": "4316de41-fc44-4019-a46e-abe7883a6182",
+  "canvas_px": { "w": 32, "h": 32 },
+  "front_pole": "bottom",
+  "note": "Chunky-toy top-down racing car; sky-blue body, milk-white horizontal hood stripe, silver-grey windshield. Hood is at canvas BOTTOM; render code applies setRotation(headingRad - Math.PI / 2) so the hood faces the direction of travel.",
+  "view": "high top-down",
+  "file": "rival-blue.png"
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mini Racers</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      overflow: hidden;
+      background: #000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100vw;
+      height: 100vh;
+    }
+    #game-container {
+      /* Phaser canvas is injected here */
+    }
+    @font-face {
+      font-family: "Press Start 2P";
+      src: url("assets/fonts/PressStart2P-Regular.ttf") format("truetype");
+      font-display: block;
+    }
+  </style>
+  <script type="module" crossorigin src="./assets/index-BbbRKkhU.js"></script>
+</head>
+<body>
+  <div id="game-container"></div>
+  <div style="font-family: 'Press Start 2P'; opacity: 0; position: absolute; top: -9999px;">.</div>
+</body>
+</html>

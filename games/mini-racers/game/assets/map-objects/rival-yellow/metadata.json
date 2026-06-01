@@ -1,0 +1,10 @@
+{
+  "id": "rival-yellow",
+  "tool": "create_map_object",
+  "pixellab_object_id": "4c0ff946-1946-4c84-ad94-c88a91cce680",
+  "canvas_px": { "w": 32, "h": 32 },
+  "front_pole": "bottom",
+  "note": "Chunky-toy top-down racing car; sunny-yellow body, juice-orange centre stripe, silver-grey windshield. Hood is at canvas BOTTOM; render code applies setRotation(headingRad - Math.PI / 2) so the hood faces the direction of travel.",
+  "view": "high top-down",
+  "file": "rival-yellow.png"
+}

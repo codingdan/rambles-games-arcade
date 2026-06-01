@@ -1,0 +1,10 @@
+{
+  "id": "player-car",
+  "tool": "create_map_object",
+  "pixellab_object_id": "a0fe8c24-8412-43eb-a436-9d4e6ff0f694",
+  "canvas_px": { "w": 32, "h": 32 },
+  "front_pole": "bottom",
+  "note": "Chunky-toy top-down racing car; cereal-box-red body, milk-white centre stripe, silver-grey windshield. Hood is at canvas BOTTOM; render code applies setRotation(headingRad - Math.PI / 2) so the hood faces the direction of travel.",
+  "view": "high top-down",
+  "file": "player-car.png"
+}

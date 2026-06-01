@@ -1,0 +1,9 @@
+{
+  "id": "finish-tape",
+  "tool": "create_map_object",
+  "pixellab_object_id": "cbd75c39-843d-4023-b921-ee2331d3c864",
+  "canvas_px": { "w": 96, "h": 96 },
+  "note": "Checkered tape strip centred in canvas; transparent padding above/below. Requested 96x32 — API rounded to 96x96.",
+  "view": "high top-down",
+  "file": "finish-tape.png"
+}

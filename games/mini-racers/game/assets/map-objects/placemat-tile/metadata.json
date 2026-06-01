@@ -1,0 +1,9 @@
+{
+  "id": "placemat-tile",
+  "tool": "create_map_object",
+  "pixellab_object_id": "43d61e3d-2172-4652-8f8c-77b623fcd252",
+  "canvas_px": { "w": 64, "h": 64 },
+  "view": "high top-down",
+  "note": "Seamlessly tileable placemat fabric. Milk-white woven cloth field with subtle butter-cream micro-gingham check (low contrast). No bold red stripes. Tiles horizontally and vertically without visible seam.",
+  "file": "placemat-tile.png"
+}

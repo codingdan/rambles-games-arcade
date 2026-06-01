@@ -1,0 +1,9 @@
+{
+  "id": "juice-spill",
+  "tool": "create_map_object",
+  "pixellab_object_id": "b1ee68d7-77e9-435d-82cf-5d671e763ede",
+  "canvas_px": { "w": 80, "h": 72 },
+  "note": "Irregular orange juice puddle from top-down. Organic blob, juice-orange body, cereal-box-red rim highlight, transparent outside. Display 80x72 px.",
+  "view": "high top-down",
+  "file": "juice-spill.png"
+}

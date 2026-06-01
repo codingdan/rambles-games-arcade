@@ -1,0 +1,9 @@
+{
+  "id": "fork",
+  "tool": "create_map_object",
+  "pixellab_object_id": "984a0c73-6247-4e8e-a641-fe6e3465f942",
+  "canvas_px": { "w": 128, "h": 40 },
+  "note": "Silver salad fork laid flat, top-down. Wide horizontal layout: horizontal handle bar along bottom-third (left-side), thin head bar across full width at mid-height, 4 vertical tines pointing upward with visibly wider middle gap between tines 2 and 3 for the chicane threading channel. Display 128x40 px.",
+  "view": "high top-down",
+  "file": "fork.png"
+}
