@@ -6,7 +6,6 @@ window.RG_GAMES = [
     "genre": "Top-down melee dungeon crawler with a single linear cave route ending in a multi-phase dragon boss.",
     "desc": "You are Oskar — a dwarf so small the dragon should swallow him whole — and you walk into the dragon's cave anyway, big sword drawn and red cape flying, to stop it before it breaks out and burns the world.",
     "promotedAt": "2026-06-01T10:19:21+00:00",
-    "builtIn": 52167,
     "cover": "cover.png"
   },
   {
@@ -15,7 +14,6 @@ window.RG_GAMES = [
     "genre": "Top-down arcade racer in the Micro Machines lineage — short circuit, three laps, AI rivals as physical bumping objects, household-prop obstacles as the corner library.",
     "desc": "You are a thumb-sized car ripping around a real kitchen table, three laps, trading paint with rival AI cars and threading between cereal boxes, fork tines, and slicks of spilled juice to take the chequer first.",
     "promotedAt": "2026-06-01T10:19:17+00:00",
-    "builtIn": 112546,
     "cover": "cover.png"
   },
   {
@@ -24,7 +22,6 @@ window.RG_GAMES = [
     "genre": "Real-time cutaway-nest colony sim — light strategy, idle-friendly pacing, single always-visible play space.",
     "desc": "You are the Queen at the heart of a living anthill, watching your colony tunnel, forage, and grow around you while you dole out the only two things that matter: food and workers.",
     "promotedAt": "2026-04-30T06:53:32+00:00",
-    "builtIn": 263191,
     "cover": "cover.png"
   },
   {
@@ -33,7 +30,6 @@ window.RG_GAMES = [
     "genre": "Interactive counting picture-book — tap-to-match, no fail state, two-phase pedagogy (guided lesson, then self-find), 1–5 only.",
     "desc": "Learn to count to 5 with ladybirds in a sunlit garden.",
     "promotedAt": "2026-04-30T06:50:17+00:00",
-    "builtIn": 104277,
     "cover": "cover.png"
   },
   {
@@ -42,7 +38,6 @@ window.RG_GAMES = [
     "genre": "Top-down-ish vertically-scrolling downhill snowboarding arcade, in the SkiFree lineage: continuous descent, obstacle slalom, inevitable pursuer.",
     "desc": "You are snowboarding down an endless mountain — carving, dodging pines, launching off moguls — and at some point Donald Trump comes bounding down the slope to eat you, just like the SkiFree Yeti.",
     "promotedAt": "2026-04-24T12:58:58+00:00",
-    "builtIn": 153563,
     "cover": "cover.png"
   }
 ];
