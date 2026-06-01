@@ -182,16 +182,27 @@ function GameDetail({ slug }) {
 // ---------- play ----------
 function PlayView({ slug }) {
   const game = gameById(slug);
+  const exit = () => { window.location.hash = `#/game/${slug}`; };
   useEffect(() => {
-    const onKey = (e) => { if (e.key === "Escape") window.location.hash = `#/game/${slug}`; };
+    const onKey = (e) => { if (e.key === "Escape") exit(); };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
   }, [slug]);
+  // The game runs in a same-origin iframe that grabs keyboard focus, so the
+  // parent window won't see Esc once the kid is playing. Also listen inside the
+  // frame. (Same-origin only; wrapped in try/catch as a safety net.)
+  const onFrameLoad = (e) => {
+    try {
+      e.target.contentWindow.addEventListener("keydown", (ev) => {
+        if (ev.key === "Escape") exit();
+      });
+    } catch (_) { /* ignore */ }
+  };
   if (!game) return <NotFound />;
   return (
     <div className="rg-play">
       <a className="rg-play-back" href={`#/game/${slug}`} title="Back to arcade (Esc)">‹</a>
-      <iframe className="rg-play-frame" src={`games/${slug}/game/index.html`} title={game.title} allow="autoplay; fullscreen" />
+      <iframe className="rg-play-frame" src={`games/${slug}/game/`} title={game.title} allow="autoplay; fullscreen" onLoad={onFrameLoad} />
     </div>
   );
 }
