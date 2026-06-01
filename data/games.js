@@ -44,22 +44,5 @@ window.RG_GAMES = [
     "promotedAt": "2026-04-24T12:58:58+00:00",
     "builtIn": 153563,
     "cover": "cover.png"
-  },
-  {
-    "id": "hamish-zombie-tag",
-    "title": "Zombie Tag",
-    "genre": "Top-down grid-based tag-chase with stealth-proximity aggro and round-to-round role reversal.",
-    "desc": "You are one adventurer in a room crowded with zombies. Or one zombie chasing an adventurer!",
-    "promotedAt": "2026-04-24T04:42:09+00:00",
-    "builtIn": 149644,
-    "cover": "cover.png"
-  },
-  {
-    "id": "racing-game",
-    "title": "Racing Game",
-    "genre": "2D side-scrolling auto-runner race — creature runs automatically, player's only inputs are jump and duck, AI rivals share the course and your relative position shifts based on how cleanly you clear obstacles.",
-    "desc": "You are piloting a mythic creature — dragon, unicorn, or goblin — at a full gallop down an enchanted racetrack, neck-and-neck with rivals, with nothing but a split-second leap or duck between you and the lead.",
-    "promotedAt": "2026-04-23T12:05:47+00:00",
-    "builtIn": 28221
   }
 ];
