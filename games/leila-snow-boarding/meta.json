@@ -4,11 +4,112 @@
   "title": "Snowboard Free",
   "genre": "Top-down-ish vertically-scrolling downhill snowboarding arcade, in the SkiFree lineage: continuous descent, obstacle slalom, inevitable pursuer.",
   "desc": "You are snowboarding down an endless mountain — carving, dodging pines, launching off moguls — and at some point Donald Trump comes bounding down the slope to eat you, just like the SkiFree Yeti.",
-  "promotedAt": "2026-04-24T12:58:58+00:00",
+  "promotedAt": "2026-06-01T23:43:10+00:00",
+  "metrics": {
+    "wallClockSec": 472758.0,
+    "activeSec": 154086.861,
+    "costUsd": 131.26241905,
+    "inputTokens": 63371,
+    "outputTokens": 2666008,
+    "stagesRun": 97,
+    "turns": 3167
+  },
+  "changelog": [
+    {
+      "cycle": 1,
+      "slice": "downhill-foundation",
+      "status": "approved",
+      "phasesDone": 10,
+      "phasesFailed": 0,
+      "durationSec": 16714.0,
+      "costUsd": 12.1013
+    },
+    {
+      "cycle": 2,
+      "slice": "trump-pursuit",
+      "status": "approved",
+      "phasesDone": 9,
+      "phasesFailed": 0,
+      "durationSec": 11335.0,
+      "costUsd": 9.6984
+    },
+    {
+      "cycle": 3,
+      "slice": "catching-air",
+      "status": "approved",
+      "phasesDone": 10,
+      "phasesFailed": 0,
+      "durationSec": 21155.0,
+      "costUsd": 16.784499999999998
+    },
+    {
+      "cycle": 4,
+      "slice": "playability-pass",
+      "status": "approved",
+      "phasesDone": 6,
+      "phasesFailed": 0,
+      "durationSec": 20419.0,
+      "costUsd": 13.2338
+    },
+    {
+      "cycle": 5,
+      "slice": "slope-variety",
+      "status": "approved",
+      "phasesDone": 7,
+      "phasesFailed": 0,
+      "durationSec": 18267.0,
+      "costUsd": 14.9055
+    },
+    {
+      "cycle": 6,
+      "slice": "motion-feedback",
+      "status": "approved",
+      "phasesDone": 6,
+      "phasesFailed": 0,
+      "durationSec": 16906.0,
+      "costUsd": 11.6023
+    },
+    {
+      "cycle": 7,
+      "slice": "audio-and-feel",
+      "status": "approved",
+      "phasesDone": 6,
+      "phasesFailed": 0,
+      "durationSec": 16486.0,
+      "costUsd": 14.456900000000001
+    },
+    {
+      "cycle": 8,
+      "slice": "cross-input-controls",
+      "status": "approved",
+      "phasesDone": 8,
+      "phasesFailed": 0,
+      "durationSec": 11644.281,
+      "costUsd": 24.8762475
+    },
+    {
+      "cycle": 9,
+      "slice": "touch-overlay-redesign",
+      "status": "approved",
+      "phasesDone": 5,
+      "phasesFailed": 0,
+      "durationSec": 3792.672,
+      "costUsd": 7.807915599999999
+    },
+    {
+      "cycle": 10,
+      "slice": "bright-snow-mood",
+      "status": "scoped",
+      "phasesDone": 0,
+      "phasesFailed": 0,
+      "durationSec": 128.859,
+      "costUsd": 0.0
+    }
+  ],
+  "transcript": "Snowboarding. Snowboarding ski-free. Snowboarding ski-free and instead of the Yeti, the Abominable Snowman, it's Donald Trump. That hurts!",
   "audio": {
     "src": "audio.mp3",
     "durationSec": 12.64
   },
-  "transcript": "Snowboarding. Snowboarding ski-free. Snowboarding ski-free and instead of the Yeti, the Abominable Snowman, it's Donald Trump. That hurts!",
   "cover": "cover.png"
 }
