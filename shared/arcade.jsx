@@ -85,7 +85,7 @@ function Home() {
 }
 
 // ---------- audio ----------
-function AudioPlayer({ slug, duration }) {
+function AudioPlayer({ slug, duration, src }) {
   const audioRef = useRef(null);
   const [playing, setPlaying] = useState(false);
   const [cur, setCur] = useState(0);
@@ -103,15 +103,16 @@ function AudioPlayer({ slug, duration }) {
     const onTime = () => setCur(a.currentTime);
     const onPlay = () => setPlaying(true);
     const onStop = () => setPlaying(false);
+    const onEnded = () => { setPlaying(false); setCur(0); };
     a.addEventListener("timeupdate", onTime);
     a.addEventListener("play", onPlay);
     a.addEventListener("pause", onStop);
-    a.addEventListener("ended", onStop);
+    a.addEventListener("ended", onEnded);
     return () => {
       a.removeEventListener("timeupdate", onTime);
       a.removeEventListener("play", onPlay);
       a.removeEventListener("pause", onStop);
-      a.removeEventListener("ended", onStop);
+      a.removeEventListener("ended", onEnded);
     };
   }, []);
 
@@ -128,7 +129,7 @@ function AudioPlayer({ slug, duration }) {
         <span>{fmtTime(cur)} / {fmtTime(duration)}</span>
         <span className="rg-audio-note">· the kid's voice memo</span>
       </div>
-      <audio ref={audioRef} src={`games/${slug}/audio.mp3`} preload="metadata" />
+      <audio ref={audioRef} src={`games/${slug}/${src || "audio.mp3"}`} preload="metadata" />
     </div>
   );
 }
@@ -160,7 +161,7 @@ function GameDetail({ slug }) {
             {!meta
               ? <div className="rg-panel"><div className="rg-label">Loading…</div></div>
               : meta.audio
-                ? <AudioPlayer slug={slug} duration={meta.audio.durationSec} />
+                ? <AudioPlayer slug={slug} duration={meta.audio.durationSec} src={meta.audio.src} />
                 : <div className="rg-panel rg-noaudio">
                     <div className="rg-label">The original idea</div>
                     <p>This one was typed, not spoken — read it in the transcript below.</p>
