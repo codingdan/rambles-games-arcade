@@ -1,0 +1,159 @@
+{
+  "character": {
+    "id": "1e09179e-fb2c-430c-8c5f-0bd298159651",
+    "name": "skeleton-fast-lunger",
+    "prompt": "lean skeleton warrior, crouched stance weight forward on toes, smoother bleached bone, narrower hip silhouette, plate-like smooth ribcage front, long thin spear-like serrated bone-blade held back behind one hip in a thrust-ready grip, empty eye sockets with faint red pinpoint glow",
+    "size": {
+      "width": 80,
+      "height": 80
+    },
+    "template_id": "mannequin",
+    "directions": 4,
+    "view": "low top-down",
+    "created_at": "2026-05-05T17:12:38.604086+00:00"
+  },
+  "frames": {
+    "rotations": {
+      "south": "rotations/south.png",
+      "west": "rotations/west.png",
+      "east": "rotations/east.png",
+      "north": "rotations/north.png"
+    },
+    "animations": {
+      "From_the_deeply_coiled_low_crouch_with_weapon_arm-fbab4ea1": {
+        "north": [
+          "animations/From_the_deeply_coiled_low_crouch_with_weapon_arm-fbab4ea1/north/frame_000.png",
+          "animations/From_the_deeply_coiled_low_crouch_with_weapon_arm-fbab4ea1/north/frame_001.png",
+          "animations/From_the_deeply_coiled_low_crouch_with_weapon_arm-fbab4ea1/north/frame_002.png",
+          "animations/From_the_deeply_coiled_low_crouch_with_weapon_arm-fbab4ea1/north/frame_003.png"
+        ]
+      },
+      "animating-56a45c32": {
+        "north": [
+          "animations/animating-56a45c32/north/frame_000.png",
+          "animations/animating-56a45c32/north/frame_001.png",
+          "animations/animating-56a45c32/north/frame_002.png",
+          "animations/animating-56a45c32/north/frame_003.png"
+        ],
+        "south": [
+          "animations/animating-56a45c32/south/frame_000.png",
+          "animations/animating-56a45c32/south/frame_001.png",
+          "animations/animating-56a45c32/south/frame_002.png",
+          "animations/animating-56a45c32/south/frame_003.png"
+        ],
+        "west": [
+          "animations/animating-56a45c32/west/frame_000.png",
+          "animations/animating-56a45c32/west/frame_001.png",
+          "animations/animating-56a45c32/west/frame_002.png",
+          "animations/animating-56a45c32/west/frame_003.png"
+        ],
+        "east": [
+          "animations/animating-56a45c32/east/frame_000.png",
+          "animations/animating-56a45c32/east/frame_001.png",
+          "animations/animating-56a45c32/east/frame_002.png",
+          "animations/animating-56a45c32/east/frame_003.png"
+        ]
+      },
+      "animating-09b3649a": {
+        "south": [
+          "animations/animating-09b3649a/south/frame_000.png",
+          "animations/animating-09b3649a/south/frame_001.png",
+          "animations/animating-09b3649a/south/frame_002.png",
+          "animations/animating-09b3649a/south/frame_003.png",
+          "animations/animating-09b3649a/south/frame_004.png",
+          "animations/animating-09b3649a/south/frame_005.png",
+          "animations/animating-09b3649a/south/frame_006.png",
+          "animations/animating-09b3649a/south/frame_007.png"
+        ],
+        "north": [
+          "animations/animating-09b3649a/north/frame_000.png",
+          "animations/animating-09b3649a/north/frame_001.png",
+          "animations/animating-09b3649a/north/frame_002.png",
+          "animations/animating-09b3649a/north/frame_003.png",
+          "animations/animating-09b3649a/north/frame_004.png",
+          "animations/animating-09b3649a/north/frame_005.png",
+          "animations/animating-09b3649a/north/frame_006.png",
+          "animations/animating-09b3649a/north/frame_007.png"
+        ],
+        "west": [
+          "animations/animating-09b3649a/west/frame_000.png",
+          "animations/animating-09b3649a/west/frame_001.png",
+          "animations/animating-09b3649a/west/frame_002.png",
+          "animations/animating-09b3649a/west/frame_003.png",
+          "animations/animating-09b3649a/west/frame_004.png",
+          "animations/animating-09b3649a/west/frame_005.png",
+          "animations/animating-09b3649a/west/frame_006.png",
+          "animations/animating-09b3649a/west/frame_007.png"
+        ],
+        "east": [
+          "animations/animating-09b3649a/east/frame_000.png",
+          "animations/animating-09b3649a/east/frame_001.png",
+          "animations/animating-09b3649a/east/frame_002.png",
+          "animations/animating-09b3649a/east/frame_003.png",
+          "animations/animating-09b3649a/east/frame_004.png",
+          "animations/animating-09b3649a/east/frame_005.png",
+          "animations/animating-09b3649a/east/frame_006.png",
+          "animations/animating-09b3649a/east/frame_007.png"
+        ]
+      },
+      "The_lean_skeleton_stands_alert_and_shifts_its_weig-0197f732": {
+        "east": [
+          "animations/The_lean_skeleton_stands_alert_and_shifts_its_weig-0197f732/east/frame_000.png",
+          "animations/The_lean_skeleton_stands_alert_and_shifts_its_weig-0197f732/east/frame_001.png",
+          "animations/The_lean_skeleton_stands_alert_and_shifts_its_weig-0197f732/east/frame_002.png",
+          "animations/The_lean_skeleton_stands_alert_and_shifts_its_weig-0197f732/east/frame_003.png"
+        ]
+      },
+      "From_the_deeply_coiled_low_crouch_with_weapon_arm-c83a869b": {
+        "south": [
+          "animations/From_the_deeply_coiled_low_crouch_with_weapon_arm-c83a869b/south/frame_000.png",
+          "animations/From_the_deeply_coiled_low_crouch_with_weapon_arm-c83a869b/south/frame_001.png",
+          "animations/From_the_deeply_coiled_low_crouch_with_weapon_arm-c83a869b/south/frame_002.png",
+          "animations/From_the_deeply_coiled_low_crouch_with_weapon_arm-c83a869b/south/frame_003.png"
+        ]
+      },
+      "The_lean_skeleton_stands_alert_and_shifts_its_weig-42e9a46a": {
+        "south": [
+          "animations/The_lean_skeleton_stands_alert_and_shifts_its_weig-42e9a46a/south/frame_000.png",
+          "animations/The_lean_skeleton_stands_alert_and_shifts_its_weig-42e9a46a/south/frame_001.png",
+          "animations/The_lean_skeleton_stands_alert_and_shifts_its_weig-42e9a46a/south/frame_002.png",
+          "animations/The_lean_skeleton_stands_alert_and_shifts_its_weig-42e9a46a/south/frame_003.png"
+        ]
+      },
+      "From_the_deeply_coiled_low_crouch_with_weapon_arm-6eb3a33f": {
+        "east": [
+          "animations/From_the_deeply_coiled_low_crouch_with_weapon_arm-6eb3a33f/east/frame_000.png",
+          "animations/From_the_deeply_coiled_low_crouch_with_weapon_arm-6eb3a33f/east/frame_001.png",
+          "animations/From_the_deeply_coiled_low_crouch_with_weapon_arm-6eb3a33f/east/frame_002.png",
+          "animations/From_the_deeply_coiled_low_crouch_with_weapon_arm-6eb3a33f/east/frame_003.png"
+        ]
+      },
+      "From_the_deeply_coiled_low_crouch_with_weapon_arm-1f334715": {
+        "west": [
+          "animations/From_the_deeply_coiled_low_crouch_with_weapon_arm-1f334715/west/frame_000.png",
+          "animations/From_the_deeply_coiled_low_crouch_with_weapon_arm-1f334715/west/frame_001.png",
+          "animations/From_the_deeply_coiled_low_crouch_with_weapon_arm-1f334715/west/frame_002.png",
+          "animations/From_the_deeply_coiled_low_crouch_with_weapon_arm-1f334715/west/frame_003.png"
+        ]
+      },
+      "The_lean_skeleton_stands_alert_and_shifts_its_weig-38bad0ca": {
+        "west": [
+          "animations/The_lean_skeleton_stands_alert_and_shifts_its_weig-38bad0ca/west/frame_000.png",
+          "animations/The_lean_skeleton_stands_alert_and_shifts_its_weig-38bad0ca/west/frame_001.png",
+          "animations/The_lean_skeleton_stands_alert_and_shifts_its_weig-38bad0ca/west/frame_002.png",
+          "animations/The_lean_skeleton_stands_alert_and_shifts_its_weig-38bad0ca/west/frame_003.png"
+        ]
+      },
+      "The_lean_skeleton_stands_alert_and_shifts_its_weig-c7b1be8f": {
+        "north": [
+          "animations/The_lean_skeleton_stands_alert_and_shifts_its_weig-c7b1be8f/north/frame_000.png",
+          "animations/The_lean_skeleton_stands_alert_and_shifts_its_weig-c7b1be8f/north/frame_001.png",
+          "animations/The_lean_skeleton_stands_alert_and_shifts_its_weig-c7b1be8f/north/frame_002.png",
+          "animations/The_lean_skeleton_stands_alert_and_shifts_its_weig-c7b1be8f/north/frame_003.png"
+        ]
+      }
+    }
+  },
+  "export_version": "2.0",
+  "export_date": "2026-05-05T17:25:11.303811"
+}

@@ -1,0 +1,107 @@
+{
+  "character": {
+    "id": "957787a9-2625-4a63-89f2-fd3503743eea",
+    "name": "red-dragon",
+    "prompt": "massive deep crimson dragon coiled around a glittering gold hoard, large folded leathery wings tucked at the sides, ember-orange glow under throat scales and inside open jaws, glowing yellow-orange eyes, gold-glint highlights on crimson scales, head raised and aimed at the viewer, tail curled around the hoard; takes up the full canvas, looks visibly enormous, fairytale-bold heroic-fantasy style",
+    "size": {
+      "width": 180,
+      "height": 180
+    },
+    "template_id": "mannequin",
+    "directions": 4,
+    "view": "low top-down",
+    "created_at": "2026-05-05T20:36:24.901189+00:00"
+  },
+  "frames": {
+    "rotations": {
+      "south": "rotations/south.png",
+      "west": "rotations/west.png",
+      "east": "rotations/east.png",
+      "north": "rotations/north.png"
+    },
+    "animations": {
+      "The_dragon_s_head_rears_back_pulling_away_from_the-ae0b86b7": {
+        "south": [
+          "animations/The_dragon_s_head_rears_back_pulling_away_from_the-ae0b86b7/south/frame_000.png",
+          "animations/The_dragon_s_head_rears_back_pulling_away_from_the-ae0b86b7/south/frame_001.png",
+          "animations/The_dragon_s_head_rears_back_pulling_away_from_the-ae0b86b7/south/frame_002.png",
+          "animations/The_dragon_s_head_rears_back_pulling_away_from_the-ae0b86b7/south/frame_003.png"
+        ]
+      },
+      "From_the_fully_reared-up_position_with_both_forecl-32503e04": {
+        "south": [
+          "animations/From_the_fully_reared-up_position_with_both_forecl-32503e04/south/frame_000.png",
+          "animations/From_the_fully_reared-up_position_with_both_forecl-32503e04/south/frame_001.png",
+          "animations/From_the_fully_reared-up_position_with_both_forecl-32503e04/south/frame_002.png",
+          "animations/From_the_fully_reared-up_position_with_both_forecl-32503e04/south/frame_003.png"
+        ]
+      },
+      "From_the_held_cocked-claw_pose_with_the_foreclaw_r-3004ad08": {
+        "south": [
+          "animations/From_the_held_cocked-claw_pose_with_the_foreclaw_r-3004ad08/south/frame_000.png",
+          "animations/From_the_held_cocked-claw_pose_with_the_foreclaw_r-3004ad08/south/frame_001.png",
+          "animations/From_the_held_cocked-claw_pose_with_the_foreclaw_r-3004ad08/south/frame_002.png",
+          "animations/From_the_held_cocked-claw_pose_with_the_foreclaw_r-3004ad08/south/frame_003.png"
+        ]
+      },
+      "The_dragon_s_weight_shifts_subtly_backward_as_its-54fa64ce": {
+        "south": [
+          "animations/The_dragon_s_weight_shifts_subtly_backward_as_its-54fa64ce/south/frame_000.png",
+          "animations/The_dragon_s_weight_shifts_subtly_backward_as_its-54fa64ce/south/frame_001.png",
+          "animations/The_dragon_s_weight_shifts_subtly_backward_as_its-54fa64ce/south/frame_002.png",
+          "animations/The_dragon_s_weight_shifts_subtly_backward_as_its-54fa64ce/south/frame_003.png"
+        ]
+      },
+      "The_dragon_holds_its_coiled_position_around_the_go-678766dd": {
+        "south": [
+          "animations/The_dragon_holds_its_coiled_position_around_the_go-678766dd/south/frame_000.png",
+          "animations/The_dragon_holds_its_coiled_position_around_the_go-678766dd/south/frame_001.png",
+          "animations/The_dragon_holds_its_coiled_position_around_the_go-678766dd/south/frame_002.png",
+          "animations/The_dragon_holds_its_coiled_position_around_the_go-678766dd/south/frame_003.png"
+        ]
+      },
+      "From_the_reared-back_throat-blazing_position_the_d-4612578a": {
+        "south": [
+          "animations/From_the_reared-back_throat-blazing_position_the_d-4612578a/south/frame_000.png",
+          "animations/From_the_reared-back_throat-blazing_position_the_d-4612578a/south/frame_001.png",
+          "animations/From_the_reared-back_throat-blazing_position_the_d-4612578a/south/frame_002.png",
+          "animations/From_the_reared-back_throat-blazing_position_the_d-4612578a/south/frame_003.png"
+        ]
+      },
+      "The_dragon_s_body_coils_sideways_to_one_side_the_m-3028d469": {
+        "south": [
+          "animations/The_dragon_s_body_coils_sideways_to_one_side_the_m-3028d469/south/frame_000.png",
+          "animations/The_dragon_s_body_coils_sideways_to_one_side_the_m-3028d469/south/frame_001.png",
+          "animations/The_dragon_s_body_coils_sideways_to_one_side_the_m-3028d469/south/frame_002.png",
+          "animations/The_dragon_s_body_coils_sideways_to_one_side_the_m-3028d469/south/frame_003.png"
+        ]
+      },
+      "The_dragon_s_massive_body_previously_raised_and_fi-f93a25e5": {
+        "south": [
+          "animations/The_dragon_s_massive_body_previously_raised_and_fi-f93a25e5/south/frame_000.png",
+          "animations/The_dragon_s_massive_body_previously_raised_and_fi-f93a25e5/south/frame_001.png",
+          "animations/The_dragon_s_massive_body_previously_raised_and_fi-f93a25e5/south/frame_002.png",
+          "animations/The_dragon_s_massive_body_previously_raised_and_fi-f93a25e5/south/frame_003.png"
+        ]
+      },
+      "The_dragon_s_front_body_begins_to_rear_upward_the-2a640bc0": {
+        "south": [
+          "animations/The_dragon_s_front_body_begins_to_rear_upward_the-2a640bc0/south/frame_000.png",
+          "animations/The_dragon_s_front_body_begins_to_rear_upward_the-2a640bc0/south/frame_001.png",
+          "animations/The_dragon_s_front_body_begins_to_rear_upward_the-2a640bc0/south/frame_002.png",
+          "animations/The_dragon_s_front_body_begins_to_rear_upward_the-2a640bc0/south/frame_003.png"
+        ]
+      },
+      "From_the_coiled_tail-loaded_position_the_tail_whip-a231ac1d": {
+        "south": [
+          "animations/From_the_coiled_tail-loaded_position_the_tail_whip-a231ac1d/south/frame_000.png",
+          "animations/From_the_coiled_tail-loaded_position_the_tail_whip-a231ac1d/south/frame_001.png",
+          "animations/From_the_coiled_tail-loaded_position_the_tail_whip-a231ac1d/south/frame_002.png",
+          "animations/From_the_coiled_tail-loaded_position_the_tail_whip-a231ac1d/south/frame_003.png"
+        ]
+      }
+    }
+  },
+  "export_version": "2.0",
+  "export_date": "2026-05-05T20:43:44.718639"
+}

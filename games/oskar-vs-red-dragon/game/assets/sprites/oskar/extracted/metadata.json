@@ -1,0 +1,127 @@
+{
+  "character": {
+    "id": "657898f3-4d24-40fb-af53-944fae1fd7b5",
+    "name": "oskar",
+    "prompt": "chunky dwarf fighter, brown bushy beard, leather jerkin with iron rivets, large two-handed broadsword held diagonally across body, deep crimson cape flowing behind, heavy boots",
+    "size": {
+      "width": 68,
+      "height": 68
+    },
+    "template_id": "mannequin",
+    "directions": 4,
+    "view": "low top-down",
+    "created_at": "2026-05-05T12:48:51.67717+00:00"
+  },
+  "frames": {
+    "rotations": {
+      "south": "rotations/south.png",
+      "west": "rotations/west.png",
+      "east": "rotations/east.png",
+      "north": "rotations/north.png"
+    },
+    "animations": {
+      "animating-00962816": {
+        "east": [
+          "animations/animating-00962816/east/frame_000.png",
+          "animations/animating-00962816/east/frame_001.png",
+          "animations/animating-00962816/east/frame_002.png",
+          "animations/animating-00962816/east/frame_003.png",
+          "animations/animating-00962816/east/frame_004.png",
+          "animations/animating-00962816/east/frame_005.png",
+          "animations/animating-00962816/east/frame_006.png",
+          "animations/animating-00962816/east/frame_007.png"
+        ],
+        "west": [
+          "animations/animating-00962816/west/frame_000.png",
+          "animations/animating-00962816/west/frame_001.png",
+          "animations/animating-00962816/west/frame_002.png",
+          "animations/animating-00962816/west/frame_003.png",
+          "animations/animating-00962816/west/frame_004.png",
+          "animations/animating-00962816/west/frame_005.png",
+          "animations/animating-00962816/west/frame_006.png",
+          "animations/animating-00962816/west/frame_007.png"
+        ],
+        "south": [
+          "animations/animating-00962816/south/frame_000.png",
+          "animations/animating-00962816/south/frame_001.png",
+          "animations/animating-00962816/south/frame_002.png",
+          "animations/animating-00962816/south/frame_003.png",
+          "animations/animating-00962816/south/frame_004.png",
+          "animations/animating-00962816/south/frame_005.png",
+          "animations/animating-00962816/south/frame_006.png",
+          "animations/animating-00962816/south/frame_007.png"
+        ],
+        "north": [
+          "animations/animating-00962816/north/frame_000.png",
+          "animations/animating-00962816/north/frame_001.png",
+          "animations/animating-00962816/north/frame_002.png",
+          "animations/animating-00962816/north/frame_003.png",
+          "animations/animating-00962816/north/frame_004.png",
+          "animations/animating-00962816/north/frame_005.png",
+          "animations/animating-00962816/north/frame_006.png",
+          "animations/animating-00962816/north/frame_007.png"
+        ]
+      },
+      "animating-235030e1": {
+        "east": [
+          "animations/animating-235030e1/east/frame_000.png",
+          "animations/animating-235030e1/east/frame_001.png",
+          "animations/animating-235030e1/east/frame_002.png",
+          "animations/animating-235030e1/east/frame_003.png"
+        ],
+        "west": [
+          "animations/animating-235030e1/west/frame_000.png",
+          "animations/animating-235030e1/west/frame_001.png",
+          "animations/animating-235030e1/west/frame_002.png",
+          "animations/animating-235030e1/west/frame_003.png"
+        ],
+        "north": [
+          "animations/animating-235030e1/north/frame_000.png",
+          "animations/animating-235030e1/north/frame_001.png",
+          "animations/animating-235030e1/north/frame_002.png",
+          "animations/animating-235030e1/north/frame_003.png"
+        ],
+        "south": [
+          "animations/animating-235030e1/south/frame_000.png",
+          "animations/animating-235030e1/south/frame_001.png",
+          "animations/animating-235030e1/south/frame_002.png",
+          "animations/animating-235030e1/south/frame_003.png"
+        ]
+      },
+      "The_dwarf_fighter_plants_his_feet_wide_in_a_braced-b2b0c18d": {
+        "north": [
+          "animations/The_dwarf_fighter_plants_his_feet_wide_in_a_braced-b2b0c18d/north/frame_000.png",
+          "animations/The_dwarf_fighter_plants_his_feet_wide_in_a_braced-b2b0c18d/north/frame_001.png",
+          "animations/The_dwarf_fighter_plants_his_feet_wide_in_a_braced-b2b0c18d/north/frame_002.png",
+          "animations/The_dwarf_fighter_plants_his_feet_wide_in_a_braced-b2b0c18d/north/frame_003.png"
+        ]
+      },
+      "The_dwarf_fighter_plants_his_feet_wide_in_a_braced-eef5f2e3": {
+        "south": [
+          "animations/The_dwarf_fighter_plants_his_feet_wide_in_a_braced-eef5f2e3/south/frame_000.png",
+          "animations/The_dwarf_fighter_plants_his_feet_wide_in_a_braced-eef5f2e3/south/frame_001.png",
+          "animations/The_dwarf_fighter_plants_his_feet_wide_in_a_braced-eef5f2e3/south/frame_002.png",
+          "animations/The_dwarf_fighter_plants_his_feet_wide_in_a_braced-eef5f2e3/south/frame_003.png"
+        ]
+      },
+      "The_dwarf_fighter_plants_his_feet_wide_in_a_braced-1f8d5a89": {
+        "east": [
+          "animations/The_dwarf_fighter_plants_his_feet_wide_in_a_braced-1f8d5a89/east/frame_000.png",
+          "animations/The_dwarf_fighter_plants_his_feet_wide_in_a_braced-1f8d5a89/east/frame_001.png",
+          "animations/The_dwarf_fighter_plants_his_feet_wide_in_a_braced-1f8d5a89/east/frame_002.png",
+          "animations/The_dwarf_fighter_plants_his_feet_wide_in_a_braced-1f8d5a89/east/frame_003.png"
+        ]
+      },
+      "The_dwarf_fighter_plants_his_feet_wide_in_a_braced-e17684c0": {
+        "west": [
+          "animations/The_dwarf_fighter_plants_his_feet_wide_in_a_braced-e17684c0/west/frame_000.png",
+          "animations/The_dwarf_fighter_plants_his_feet_wide_in_a_braced-e17684c0/west/frame_001.png",
+          "animations/The_dwarf_fighter_plants_his_feet_wide_in_a_braced-e17684c0/west/frame_002.png",
+          "animations/The_dwarf_fighter_plants_his_feet_wide_in_a_braced-e17684c0/west/frame_003.png"
+        ]
+      }
+    }
+  },
+  "export_version": "2.0",
+  "export_date": "2026-05-05T12:57:05.411447"
+}

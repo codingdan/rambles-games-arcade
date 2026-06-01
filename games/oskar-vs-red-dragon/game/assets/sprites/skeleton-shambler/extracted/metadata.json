@@ -1,0 +1,159 @@
+{
+  "character": {
+    "id": "11b188f5-c028-44ee-905b-5151cc8a5e56",
+    "name": "skeleton-shambler",
+    "prompt": "tall thin reanimated skeleton, slumped uneven posture, bony arms long and hanging, jagged ribcage, empty black eye sockets with faint red pinpoint glow, chipped rusted shortsword in one hand",
+    "size": {
+      "width": 80,
+      "height": 80
+    },
+    "template_id": "mannequin",
+    "directions": 4,
+    "view": "low top-down",
+    "created_at": "2026-05-05T12:59:37.887272+00:00"
+  },
+  "frames": {
+    "rotations": {
+      "south": "rotations/south.png",
+      "west": "rotations/west.png",
+      "east": "rotations/east.png",
+      "north": "rotations/north.png"
+    },
+    "animations": {
+      "walking_sadly-57d9707a": {
+        "east": [
+          "animations/walking_sadly-57d9707a/east/frame_000.png",
+          "animations/walking_sadly-57d9707a/east/frame_001.png",
+          "animations/walking_sadly-57d9707a/east/frame_002.png",
+          "animations/walking_sadly-57d9707a/east/frame_003.png",
+          "animations/walking_sadly-57d9707a/east/frame_004.png",
+          "animations/walking_sadly-57d9707a/east/frame_005.png",
+          "animations/walking_sadly-57d9707a/east/frame_006.png",
+          "animations/walking_sadly-57d9707a/east/frame_007.png"
+        ],
+        "south": [
+          "animations/walking_sadly-57d9707a/south/frame_000.png",
+          "animations/walking_sadly-57d9707a/south/frame_001.png",
+          "animations/walking_sadly-57d9707a/south/frame_002.png",
+          "animations/walking_sadly-57d9707a/south/frame_003.png",
+          "animations/walking_sadly-57d9707a/south/frame_004.png",
+          "animations/walking_sadly-57d9707a/south/frame_005.png",
+          "animations/walking_sadly-57d9707a/south/frame_006.png",
+          "animations/walking_sadly-57d9707a/south/frame_007.png"
+        ],
+        "north": [
+          "animations/walking_sadly-57d9707a/north/frame_000.png",
+          "animations/walking_sadly-57d9707a/north/frame_001.png",
+          "animations/walking_sadly-57d9707a/north/frame_002.png",
+          "animations/walking_sadly-57d9707a/north/frame_003.png",
+          "animations/walking_sadly-57d9707a/north/frame_004.png",
+          "animations/walking_sadly-57d9707a/north/frame_005.png",
+          "animations/walking_sadly-57d9707a/north/frame_006.png",
+          "animations/walking_sadly-57d9707a/north/frame_007.png"
+        ],
+        "west": [
+          "animations/walking_sadly-57d9707a/west/frame_000.png",
+          "animations/walking_sadly-57d9707a/west/frame_001.png",
+          "animations/walking_sadly-57d9707a/west/frame_002.png",
+          "animations/walking_sadly-57d9707a/west/frame_003.png",
+          "animations/walking_sadly-57d9707a/west/frame_004.png",
+          "animations/walking_sadly-57d9707a/west/frame_005.png",
+          "animations/walking_sadly-57d9707a/west/frame_006.png",
+          "animations/walking_sadly-57d9707a/west/frame_007.png"
+        ]
+      },
+      "animating-74b1ceb1": {
+        "south": [
+          "animations/animating-74b1ceb1/south/frame_000.png",
+          "animations/animating-74b1ceb1/south/frame_001.png",
+          "animations/animating-74b1ceb1/south/frame_002.png",
+          "animations/animating-74b1ceb1/south/frame_003.png"
+        ],
+        "east": [
+          "animations/animating-74b1ceb1/east/frame_000.png",
+          "animations/animating-74b1ceb1/east/frame_001.png",
+          "animations/animating-74b1ceb1/east/frame_002.png",
+          "animations/animating-74b1ceb1/east/frame_003.png"
+        ],
+        "north": [
+          "animations/animating-74b1ceb1/north/frame_000.png",
+          "animations/animating-74b1ceb1/north/frame_001.png",
+          "animations/animating-74b1ceb1/north/frame_002.png",
+          "animations/animating-74b1ceb1/north/frame_003.png"
+        ],
+        "west": [
+          "animations/animating-74b1ceb1/west/frame_000.png",
+          "animations/animating-74b1ceb1/west/frame_001.png",
+          "animations/animating-74b1ceb1/west/frame_002.png",
+          "animations/animating-74b1ceb1/west/frame_003.png"
+        ]
+      },
+      "Starting_from_the_held-overhead_pose_with_the_rust-4e02dc81": {
+        "south": [
+          "animations/Starting_from_the_held-overhead_pose_with_the_rust-4e02dc81/south/frame_000.png",
+          "animations/Starting_from_the_held-overhead_pose_with_the_rust-4e02dc81/south/frame_001.png",
+          "animations/Starting_from_the_held-overhead_pose_with_the_rust-4e02dc81/south/frame_002.png",
+          "animations/Starting_from_the_held-overhead_pose_with_the_rust-4e02dc81/south/frame_003.png"
+        ]
+      },
+      "Starting_from_the_held-overhead_pose_with_the_rust-390a8e80": {
+        "west": [
+          "animations/Starting_from_the_held-overhead_pose_with_the_rust-390a8e80/west/frame_000.png",
+          "animations/Starting_from_the_held-overhead_pose_with_the_rust-390a8e80/west/frame_001.png",
+          "animations/Starting_from_the_held-overhead_pose_with_the_rust-390a8e80/west/frame_002.png",
+          "animations/Starting_from_the_held-overhead_pose_with_the_rust-390a8e80/west/frame_003.png"
+        ]
+      },
+      "The_skeleton_shambler_plants_both_feet_firmly_on_t-2b3b51a0": {
+        "west": [
+          "animations/The_skeleton_shambler_plants_both_feet_firmly_on_t-2b3b51a0/west/frame_000.png",
+          "animations/The_skeleton_shambler_plants_both_feet_firmly_on_t-2b3b51a0/west/frame_001.png",
+          "animations/The_skeleton_shambler_plants_both_feet_firmly_on_t-2b3b51a0/west/frame_002.png",
+          "animations/The_skeleton_shambler_plants_both_feet_firmly_on_t-2b3b51a0/west/frame_003.png"
+        ]
+      },
+      "The_skeleton_shambler_plants_both_feet_firmly_on_t-9813bd66": {
+        "east": [
+          "animations/The_skeleton_shambler_plants_both_feet_firmly_on_t-9813bd66/east/frame_000.png",
+          "animations/The_skeleton_shambler_plants_both_feet_firmly_on_t-9813bd66/east/frame_001.png",
+          "animations/The_skeleton_shambler_plants_both_feet_firmly_on_t-9813bd66/east/frame_002.png",
+          "animations/The_skeleton_shambler_plants_both_feet_firmly_on_t-9813bd66/east/frame_003.png"
+        ]
+      },
+      "The_skeleton_shambler_plants_both_feet_firmly_on_t-303313a3": {
+        "south": [
+          "animations/The_skeleton_shambler_plants_both_feet_firmly_on_t-303313a3/south/frame_000.png",
+          "animations/The_skeleton_shambler_plants_both_feet_firmly_on_t-303313a3/south/frame_001.png",
+          "animations/The_skeleton_shambler_plants_both_feet_firmly_on_t-303313a3/south/frame_002.png",
+          "animations/The_skeleton_shambler_plants_both_feet_firmly_on_t-303313a3/south/frame_003.png"
+        ]
+      },
+      "Starting_from_the_held-overhead_pose_with_the_rust-1ec22f87": {
+        "east": [
+          "animations/Starting_from_the_held-overhead_pose_with_the_rust-1ec22f87/east/frame_000.png",
+          "animations/Starting_from_the_held-overhead_pose_with_the_rust-1ec22f87/east/frame_001.png",
+          "animations/Starting_from_the_held-overhead_pose_with_the_rust-1ec22f87/east/frame_002.png",
+          "animations/Starting_from_the_held-overhead_pose_with_the_rust-1ec22f87/east/frame_003.png"
+        ]
+      },
+      "The_skeleton_shambler_plants_both_feet_firmly_on_t-3617e266": {
+        "north": [
+          "animations/The_skeleton_shambler_plants_both_feet_firmly_on_t-3617e266/north/frame_000.png",
+          "animations/The_skeleton_shambler_plants_both_feet_firmly_on_t-3617e266/north/frame_001.png",
+          "animations/The_skeleton_shambler_plants_both_feet_firmly_on_t-3617e266/north/frame_002.png",
+          "animations/The_skeleton_shambler_plants_both_feet_firmly_on_t-3617e266/north/frame_003.png"
+        ]
+      },
+      "Starting_from_the_held-overhead_pose_with_the_rust-611d0edf": {
+        "north": [
+          "animations/Starting_from_the_held-overhead_pose_with_the_rust-611d0edf/north/frame_000.png",
+          "animations/Starting_from_the_held-overhead_pose_with_the_rust-611d0edf/north/frame_001.png",
+          "animations/Starting_from_the_held-overhead_pose_with_the_rust-611d0edf/north/frame_002.png",
+          "animations/Starting_from_the_held-overhead_pose_with_the_rust-611d0edf/north/frame_003.png"
+        ]
+      }
+    }
+  },
+  "export_version": "2.0",
+  "export_date": "2026-05-05T13:09:18.710532"
+}

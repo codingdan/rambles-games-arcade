@@ -1,0 +1,142 @@
+{
+  "tileSize": 32,
+  "darkThreshold": 66,
+  "patterns": {
+    "upper-upper-upper-upper": {
+      "tileIndex": 0,
+      "avgBrightness": {
+        "NW": 155.54166666666683,
+        "NE": 202.52213541666703,
+        "SW": 84.20182291666677,
+        "SE": 174.55729166666686
+      }
+    },
+    "upper-lower-upper-lower": {
+      "tileIndex": 1,
+      "avgBrightness": {
+        "NW": 165.99218750000003,
+        "NE": 30.002604166666742,
+        "SW": 165.36197916666677,
+        "SE": 29.557291666666735
+      }
+    },
+    "lower-upper-lower-upper": {
+      "tileIndex": 2,
+      "avgBrightness": {
+        "NW": 32.91145833333339,
+        "NE": 120.83593749999972,
+        "SW": 33.787760416666735,
+        "SE": 87.57552083333331
+      }
+    },
+    "upper-upper-lower-upper": {
+      "tileIndex": 4,
+      "avgBrightness": {
+        "NW": 102.31119791666677,
+        "NE": 172.45442708333354,
+        "SW": 45.09635416666663,
+        "SE": 172.54166666666683
+      }
+    },
+    "lower-upper-lower-lower": {
+      "tileIndex": 6,
+      "avgBrightness": {
+        "NW": 33.51171875000006,
+        "NE": 100.40625000000009,
+        "SW": 32.20833333333344,
+        "SE": 42.75781249999996
+      }
+    },
+    "upper-upper-lower-lower": {
+      "tileIndex": 7,
+      "avgBrightness": {
+        "NW": 93.5846354166667,
+        "NE": 90.64973958333331,
+        "SW": 46.992187499999986,
+        "SE": 45.37239583333332
+      }
+    },
+    "lower-upper-upper-upper": {
+      "tileIndex": 8,
+      "avgBrightness": {
+        "NW": 31.053385416666742,
+        "NE": 121.48567708333306,
+        "SW": 122.2330729166665,
+        "SE": 87.87890625
+      }
+    },
+    "lower-lower-lower-lower": {
+      "tileIndex": 10,
+      "avgBrightness": {
+        "NW": 32.244791666666785,
+        "NE": 32.003906250000114,
+        "SW": 32.19661458333345,
+        "SE": 32.05208333333345
+      }
+    },
+    "lower-lower-lower-upper": {
+      "tileIndex": 11,
+      "avgBrightness": {
+        "NW": 29.954427083333435,
+        "NE": 30.9414062500001,
+        "SW": 34.817708333333385,
+        "SE": 119.09114583333319
+      }
+    },
+    "upper-upper-upper-lower": {
+      "tileIndex": 12,
+      "avgBrightness": {
+        "NW": 165.8463541666667,
+        "NE": 88.97656249999997,
+        "SW": 165.44270833333346,
+        "SE": 44.984374999999986
+      }
+    },
+    "upper-lower-lower-lower": {
+      "tileIndex": 13,
+      "avgBrightness": {
+        "NW": 101.37890625000013,
+        "NE": 32.606770833333414,
+        "SW": 45.75911458333331,
+        "SE": 31.188802083333428
+      }
+    },
+    "upper-lower-upper-upper": {
+      "tileIndex": 16,
+      "avgBrightness": {
+        "NW": 165.26822916666686,
+        "NE": 28.0299479166667,
+        "SW": 200.16927083333357,
+        "SE": 143.42968749999994
+      }
+    },
+    "lower-lower-upper-upper": {
+      "tileIndex": 17,
+      "avgBrightness": {
+        "NW": 31.074218750000085,
+        "NE": 32.968750000000114,
+        "SW": 148.3997395833333,
+        "SE": 146.44791666666663
+      }
+    },
+    "lower-lower-upper-lower": {
+      "tileIndex": 18,
+      "avgBrightness": {
+        "NW": 33.08333333333343,
+        "NE": 32.148437500000114,
+        "SW": 118.82552083333319,
+        "SE": 30.855468750000078
+      }
+    }
+  },
+  "metrics": {
+    "totalTiles": 32,
+    "patternsFound": 14,
+    "patternCoverage": 0.875,
+    "separationRatio": 1.7918259905791105,
+    "missingPatterns": [
+      "lower-upper-upper-lower",
+      "upper-lower-lower-upper"
+    ]
+  }
+}

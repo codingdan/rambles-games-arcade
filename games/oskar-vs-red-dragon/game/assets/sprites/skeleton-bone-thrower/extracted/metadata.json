@@ -1,0 +1,159 @@
+{
+  "character": {
+    "id": "b9d6f3ef-9b84-411f-8bc9-b50404cf1302",
+    "name": "skeleton-bone-thrower",
+    "prompt": "upright skeleton warrior, feet planted apart, pronounced ribcage, one arm raised behind skull holding a femur bone overhead in throw-ready idle pose, spare bones bundled at hip belt, empty eye sockets with faint red pinpoint glow, paler bleached bone tone",
+    "size": {
+      "width": 80,
+      "height": 80
+    },
+    "template_id": "mannequin",
+    "directions": 4,
+    "view": "low top-down",
+    "created_at": "2026-05-05T17:12:40.494626+00:00"
+  },
+  "frames": {
+    "rotations": {
+      "south": "rotations/south.png",
+      "west": "rotations/west.png",
+      "east": "rotations/east.png",
+      "north": "rotations/north.png"
+    },
+    "animations": {
+      "From_the_maximally_cocked_position_with_the_bone_h-4a35d693": {
+        "south": [
+          "animations/From_the_maximally_cocked_position_with_the_bone_h-4a35d693/south/frame_000.png",
+          "animations/From_the_maximally_cocked_position_with_the_bone_h-4a35d693/south/frame_001.png",
+          "animations/From_the_maximally_cocked_position_with_the_bone_h-4a35d693/south/frame_002.png",
+          "animations/From_the_maximally_cocked_position_with_the_bone_h-4a35d693/south/frame_003.png"
+        ]
+      },
+      "animating-3bce983c": {
+        "west": [
+          "animations/animating-3bce983c/west/frame_000.png",
+          "animations/animating-3bce983c/west/frame_001.png",
+          "animations/animating-3bce983c/west/frame_002.png",
+          "animations/animating-3bce983c/west/frame_003.png"
+        ],
+        "east": [
+          "animations/animating-3bce983c/east/frame_000.png",
+          "animations/animating-3bce983c/east/frame_001.png",
+          "animations/animating-3bce983c/east/frame_002.png",
+          "animations/animating-3bce983c/east/frame_003.png"
+        ],
+        "south": [
+          "animations/animating-3bce983c/south/frame_000.png",
+          "animations/animating-3bce983c/south/frame_001.png",
+          "animations/animating-3bce983c/south/frame_002.png",
+          "animations/animating-3bce983c/south/frame_003.png"
+        ],
+        "north": [
+          "animations/animating-3bce983c/north/frame_000.png",
+          "animations/animating-3bce983c/north/frame_001.png",
+          "animations/animating-3bce983c/north/frame_002.png",
+          "animations/animating-3bce983c/north/frame_003.png"
+        ]
+      },
+      "The_upright_skeleton_s_already-raised_arm_holding-2ddfc8f0": {
+        "east": [
+          "animations/The_upright_skeleton_s_already-raised_arm_holding-2ddfc8f0/east/frame_000.png",
+          "animations/The_upright_skeleton_s_already-raised_arm_holding-2ddfc8f0/east/frame_001.png",
+          "animations/The_upright_skeleton_s_already-raised_arm_holding-2ddfc8f0/east/frame_002.png",
+          "animations/The_upright_skeleton_s_already-raised_arm_holding-2ddfc8f0/east/frame_003.png"
+        ]
+      },
+      "From_the_maximally_cocked_position_with_the_bone_h-350c6a31": {
+        "west": [
+          "animations/From_the_maximally_cocked_position_with_the_bone_h-350c6a31/west/frame_000.png",
+          "animations/From_the_maximally_cocked_position_with_the_bone_h-350c6a31/west/frame_001.png",
+          "animations/From_the_maximally_cocked_position_with_the_bone_h-350c6a31/west/frame_002.png",
+          "animations/From_the_maximally_cocked_position_with_the_bone_h-350c6a31/west/frame_003.png"
+        ]
+      },
+      "animating-1b03ab29": {
+        "east": [
+          "animations/animating-1b03ab29/east/frame_000.png",
+          "animations/animating-1b03ab29/east/frame_001.png",
+          "animations/animating-1b03ab29/east/frame_002.png",
+          "animations/animating-1b03ab29/east/frame_003.png",
+          "animations/animating-1b03ab29/east/frame_004.png",
+          "animations/animating-1b03ab29/east/frame_005.png",
+          "animations/animating-1b03ab29/east/frame_006.png",
+          "animations/animating-1b03ab29/east/frame_007.png"
+        ],
+        "west": [
+          "animations/animating-1b03ab29/west/frame_000.png",
+          "animations/animating-1b03ab29/west/frame_001.png",
+          "animations/animating-1b03ab29/west/frame_002.png",
+          "animations/animating-1b03ab29/west/frame_003.png",
+          "animations/animating-1b03ab29/west/frame_004.png",
+          "animations/animating-1b03ab29/west/frame_005.png",
+          "animations/animating-1b03ab29/west/frame_006.png",
+          "animations/animating-1b03ab29/west/frame_007.png"
+        ],
+        "south": [
+          "animations/animating-1b03ab29/south/frame_000.png",
+          "animations/animating-1b03ab29/south/frame_001.png",
+          "animations/animating-1b03ab29/south/frame_002.png",
+          "animations/animating-1b03ab29/south/frame_003.png",
+          "animations/animating-1b03ab29/south/frame_004.png",
+          "animations/animating-1b03ab29/south/frame_005.png",
+          "animations/animating-1b03ab29/south/frame_006.png",
+          "animations/animating-1b03ab29/south/frame_007.png"
+        ],
+        "north": [
+          "animations/animating-1b03ab29/north/frame_000.png",
+          "animations/animating-1b03ab29/north/frame_001.png",
+          "animations/animating-1b03ab29/north/frame_002.png",
+          "animations/animating-1b03ab29/north/frame_003.png",
+          "animations/animating-1b03ab29/north/frame_004.png",
+          "animations/animating-1b03ab29/north/frame_005.png",
+          "animations/animating-1b03ab29/north/frame_006.png",
+          "animations/animating-1b03ab29/north/frame_007.png"
+        ]
+      },
+      "The_upright_skeleton_s_already-raised_arm_holding-7385d740": {
+        "south": [
+          "animations/The_upright_skeleton_s_already-raised_arm_holding-7385d740/south/frame_000.png",
+          "animations/The_upright_skeleton_s_already-raised_arm_holding-7385d740/south/frame_001.png",
+          "animations/The_upright_skeleton_s_already-raised_arm_holding-7385d740/south/frame_002.png",
+          "animations/The_upright_skeleton_s_already-raised_arm_holding-7385d740/south/frame_003.png"
+        ]
+      },
+      "From_the_maximally_cocked_position_with_the_bone_h-3d0f25c0": {
+        "east": [
+          "animations/From_the_maximally_cocked_position_with_the_bone_h-3d0f25c0/east/frame_000.png",
+          "animations/From_the_maximally_cocked_position_with_the_bone_h-3d0f25c0/east/frame_001.png",
+          "animations/From_the_maximally_cocked_position_with_the_bone_h-3d0f25c0/east/frame_002.png",
+          "animations/From_the_maximally_cocked_position_with_the_bone_h-3d0f25c0/east/frame_003.png"
+        ]
+      },
+      "The_upright_skeleton_s_already-raised_arm_holding-8936d9be": {
+        "west": [
+          "animations/The_upright_skeleton_s_already-raised_arm_holding-8936d9be/west/frame_000.png",
+          "animations/The_upright_skeleton_s_already-raised_arm_holding-8936d9be/west/frame_001.png",
+          "animations/The_upright_skeleton_s_already-raised_arm_holding-8936d9be/west/frame_002.png",
+          "animations/The_upright_skeleton_s_already-raised_arm_holding-8936d9be/west/frame_003.png"
+        ]
+      },
+      "The_upright_skeleton_s_already-raised_arm_holding-df3dbe1a": {
+        "north": [
+          "animations/The_upright_skeleton_s_already-raised_arm_holding-df3dbe1a/north/frame_000.png",
+          "animations/The_upright_skeleton_s_already-raised_arm_holding-df3dbe1a/north/frame_001.png",
+          "animations/The_upright_skeleton_s_already-raised_arm_holding-df3dbe1a/north/frame_002.png",
+          "animations/The_upright_skeleton_s_already-raised_arm_holding-df3dbe1a/north/frame_003.png"
+        ]
+      },
+      "From_the_maximally_cocked_position_with_the_bone_h-72a782e2": {
+        "north": [
+          "animations/From_the_maximally_cocked_position_with_the_bone_h-72a782e2/north/frame_000.png",
+          "animations/From_the_maximally_cocked_position_with_the_bone_h-72a782e2/north/frame_001.png",
+          "animations/From_the_maximally_cocked_position_with_the_bone_h-72a782e2/north/frame_002.png",
+          "animations/From_the_maximally_cocked_position_with_the_bone_h-72a782e2/north/frame_003.png"
+        ]
+      }
+    }
+  },
+  "export_version": "2.0",
+  "export_date": "2026-05-05T17:30:58.798052"
+}

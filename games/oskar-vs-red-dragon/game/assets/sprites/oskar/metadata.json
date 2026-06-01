@@ -1,0 +1,34 @@
+{
+  "character_id": "657898f3-4d24-40fb-af53-944fae1fd7b5",
+  "name": "oskar",
+  "canvas": 68,
+  "directions": ["south", "north", "east", "west"],
+  "view": "low top-down",
+  "proportions": "chibi",
+  "outline": "single color black outline",
+  "shading": "medium shading",
+  "detail": "high detail",
+  "base_rotations": {
+    "south": "south.png",
+    "north": "north.png",
+    "east": "east.png",
+    "west": "west.png"
+  },
+  "animations": {
+    "idle": {
+      "template": "breathing-idle",
+      "frame_count": 4,
+      "directions": ["south", "north", "east", "west"]
+    },
+    "walk": {
+      "template": "walking-8-frames",
+      "frame_count": 8,
+      "directions": ["south", "north", "east", "west"]
+    },
+    "sword-swing": {
+      "type": "custom_action_description",
+      "frame_count": 4,
+      "directions": ["south", "north", "east", "west"]
+    }
+  }
+}
