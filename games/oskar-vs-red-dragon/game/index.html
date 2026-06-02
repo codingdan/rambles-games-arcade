@@ -23,10 +23,49 @@
     #game-container {
       /* Phaser canvas is injected here */
     }
+
+    /* ── Portrait-rotate prompt ──────────────────────────────────────────────
+       Shown only on a portrait phone. Pure CSS — never touches Phaser, and the
+       max-width guard keeps it off desktop windows in portrait. */
+    #rotate-card {
+      display: none;
+      position: fixed;
+      inset: 0;
+      z-index: 100;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 16px;
+      background: #1a1419;
+      color: #e8d8c0;
+      font-family: system-ui, sans-serif;
+      text-align: center;
+      padding: 24px;
+    }
+    #rotate-card .glyph {
+      font-size: 64px;
+      animation: rotate-hint 1.8s ease-in-out infinite;
+    }
+    #rotate-card .label {
+      font-size: 20px;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+    }
+    @keyframes rotate-hint {
+      0%, 100% { transform: rotate(-12deg); }
+      50%      { transform: rotate(78deg); }
+    }
+    @media (orientation: portrait) and (max-width: 900px) {
+      #rotate-card { display: flex; }
+    }
   </style>
-  <script type="module" crossorigin src="./assets/index-CqYu0k0l.js"></script>
+  <script type="module" crossorigin src="./assets/index-DIB2Oqu3.js"></script>
 </head>
 <body>
   <div id="game-container"></div>
+  <div id="rotate-card">
+    <div class="glyph">📱</div>
+    <div class="label">Turn your phone sideways</div>
+  </div>
 </body>
 </html>
